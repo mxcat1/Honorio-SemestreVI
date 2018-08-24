@@ -1,0 +1,53 @@
+#################################################################
+################ EN Dreamweaver - Crear sitio ###################
+#################################################################
+1) CREAR CARPETA "proyecto" en:
+C:\xampp\htdocs				
+
+2) 
+Paso1: Nombre de sitio: "proyecto" y ubicar carpeta del sitio.
+Paso2: Nombre de servidor "localhost", conectar como "Local/red", 
+       ubicar carpeta "miinstituto" y escribir URL 
+       http://localhost/proyecto/
+Paso3: En pestaña Avanzadas, seleccionar "PHP MySQL", Guardar
+Paso4: Check en "De prueba..." (En nombre de servidor)
+
+
+
+
+#################################################################
+################ ADMINISTRAR BD #################################
+#################################################################
+ACCEDER A mysql
+mysql -u root -p
+
+VER BASE DE DATOS (Estando DENTRO de mysql)
+show databases;
+
+CREANDO BASE DE DATOS (Estando DENTRO de mysql)
+create database bdlaboratorio;
+
+CAMBIAR A BASE DE DATOS "bdlaboratorio"  (Estando DENTRO de mysql)
+use bdlaboratorio;
+
+VER TABLAS DE BASE DE DATOS  (Estando DENTRO de mysql)
+show tables;
+
+CREANDO USUARIO en GESTOR DE Base de datos (Estando DENTRO de mysql)
+grant all on bdlaboratorio.* to 'admlab7cp'@'localhost' identified by '123@7cp';
+
+VERIFICAR host, usuario y contraseña creada
+SELECT host, user, password FROM user;
+
+SALIR DE mysql
+quit;
+
+
+
+CREAR COPIA DE SEGURIDAD DE BASE DE DATOS (Estando FUERA de mysql)
+mysqldump -u root -p bdlaboratorio > D:\\BDLaboratorio_al_29ago2017(05.42).sql
+
+CARGAR BASE DE DATOS DE COPIA DE SEGURIDAD  (Estando FUERA de mysql)
+mysql -u root -p bdlaboratorio < D:\\BDLaboratorio_al_29ago2017(05.42).sql
+
+

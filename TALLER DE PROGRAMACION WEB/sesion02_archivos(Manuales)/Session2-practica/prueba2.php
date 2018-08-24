@@ -13,6 +13,7 @@
         function fr2(int ...$s){
             return array_sum($s);
         }
+
     ?>
 
 </head>

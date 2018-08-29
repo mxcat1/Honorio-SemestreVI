@@ -2,7 +2,7 @@
     $con = new mysqli("localhost","root","XXmxcatXX","dblaboratorio") or die("Elias Se la Come");
 function mostrar_datos(){
     global $con;
-    $sql = "select * from caracteristica order by codCa";
+    $sql = "select * from caracteristica order by codCar";
     $consulta = $con->query($sql);
 
     while ($datos = $consulta->fetch_assoc()){
@@ -19,6 +19,10 @@ function mostrar_datos(){
         $contador++;
     }
     echo ("</table>");
+}
+function insertar(){
+    $usuario=$_POST["txtDato1"];
+    $contraseña =$_POST["txtContra"];
 }
 
 ?>

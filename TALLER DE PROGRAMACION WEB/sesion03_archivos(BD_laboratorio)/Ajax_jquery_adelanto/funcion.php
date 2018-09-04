@@ -1,7 +1,11 @@
 <?php
-    $con = new mysqli("localhost","root","XXmxcatXX","dblaboratorio") or die("Elias Se la Come");
-function mostrar_datos(){
-    global $con;
+    $con = new mysqli("localhost","root","XXmxcatXX","bdlaboratorio") or die("Elias Se la Come");
+
+    $usuario=$_POST["txtDato1"];
+    $contra =$_POST["txtContra"];
+    $sql = "insert into caracteristica(codCar, denCar) values ('".$usuario."','".$contra."')";
+    $consulta0 = $con->query($sql);
+
     $sql = "select * from caracteristica order by codCar";
     $consulta = $con->query($sql);
 
@@ -19,10 +23,5 @@ function mostrar_datos(){
         $contador++;
     }
     echo ("</table>");
-}
-function insertar(){
-    $usuario=$_POST["txtDato1"];
-    $contraseña =$_POST["txtContra"];
-}
-
+    $con->close();
 ?>

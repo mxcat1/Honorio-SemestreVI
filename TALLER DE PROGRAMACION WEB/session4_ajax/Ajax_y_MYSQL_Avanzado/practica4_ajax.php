@@ -58,8 +58,16 @@
                     datatype: "json",
                     url: "p4_ajax.php",
                     success: function (res) {
-                        $("#respuesta").html(res);
+                        $("#respuesta").show("slow",function () {
+                            $("#respuesta").html(res);
+                        })
+
                     }
+                });
+            });
+            $("#btnver").click(function () {
+                $("#respuesta").toggle("slow",function () {
+
                 })
             })
         })
@@ -74,6 +82,7 @@
         <option value="">Escoja un Equipo</option>
     </select>
     <input type="button" value="Buscar" id="enviar">
+    <input type="button" value="Ver" id="btnver">
 </form>
 <div id="respuesta"></div>
 

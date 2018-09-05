@@ -23,55 +23,21 @@
     <expand />
     <select />
   </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="e1c58956-8af6-4326-b1b9-2cd7ec249f89" />
+    </checked>
+    <expanded>
+      <node key="e1c58956-8af6-4326-b1b9-2cd7ec249f89" />
+    </expanded>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="funcion.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/funcion.php">
+      <file leaf-file-name="practica4_ajax.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/practica4_ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="91" selection-start-line="5" selection-start-column="91" selection-end-line="5" selection-end-column="91" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/p2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/p1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="practica4_ajax.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/session4_ajax/practica4_ajax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p4_ajax.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/session4_ajax/p4_ajax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="901">
+              <caret line="53" column="67" lean-forward="true" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -99,8 +65,11 @@
         <option value="$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/funcion.php" />
         <option value="$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/p2.php" />
         <option value="$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/p1.php" />
-        <option value="$PROJECT_DIR$/session4_ajax/practica4_ajax.php" />
         <option value="$PROJECT_DIR$/session4_ajax/p4_ajax.php" />
+        <option value="$PROJECT_DIR$/session4_ajax/p4_ajax1.php" />
+        <option value="$PROJECT_DIR$/session4_ajax/practica4_ajax.php" />
+        <option value="$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/practica4_ajax.php" />
+        <option value="$PROJECT_DIR$/session4_ajax/AJAX_BASICO/practica03-ajax.php" />
       </list>
     </option>
   </component>
@@ -122,7 +91,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP(XAMP)" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -140,41 +109,29 @@
           <expand>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sesion03_archivos(BD_laboratorio)" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sesion03_archivos(BD_laboratorio)" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sesion03_archivos(BD_laboratorio)" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Ajax_jquery_adelanto" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="session4_ajax" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sesion03_archivos(BD_laboratorio)" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Practicas" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="session4_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="Ajax_y_MYSQL_Avanzado" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sesion03_archivos(BD_laboratorio)" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Recursos" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="session4_ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="session4_ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Practicas" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="session4_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="Practicas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
@@ -197,6 +154,10 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\session4_ajax\AJAX_BASICO" />
+      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\session4_ajax\Ajax_y_MYSQL_Avanzado" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Honorio Semestre VI\TALLER DE PROGRAMACION WEB\session4_ajax" />
       <recent name="E:\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\sesion03_archivos(BD_laboratorio)\Recursos" />
@@ -231,11 +192,12 @@
       <workItem from="1535483161020" duration="1299000" />
       <workItem from="1535523213026" duration="6000" />
       <workItem from="1536063396788" duration="10479000" />
+      <workItem from="1536115942966" duration="6288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44736000" />
+    <option name="totallyTimeSpent" value="51024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -248,7 +210,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26866764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -270,6 +232,46 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/funcion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/p1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/practica4_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/p4_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Practicas/practica001.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -288,10 +290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -399,13 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/BDLaboratorio_al_29ago2017(05.42).sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/zBoomMusic/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -417,19 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session4_ajax/Practicas/practica001.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session4_ajax/Practicas/funciones.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -447,21 +425,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session4_ajax/Practicas/practica002.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Practicas/funciones.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -472,41 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/session4_ajax/resultado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session4_ajax/practica03-ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session4_ajax/p4_ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session4_ajax/practica4_ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/p1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/p2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -514,16 +446,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/BDLaboratorio_al_29ago2017(05.42).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/funcion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="91" selection-start-line="5" selection-start-column="91" selection-end-line="5" selection-end-column="91" />
+        <state relative-caret-position="442">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
           <folding>
             <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/p1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session4_ajax/AJAX_BASICO/practica03-ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session4_ajax/AJAX_BASICO/resultado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/p4_ajax1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/p4_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session4_ajax/Practicas/practica002.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session4_ajax/Practicas/practica001.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session4_ajax/Practicas/funciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/practica4_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="67" lean-forward="true" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
         </state>
       </provider>
     </entry>

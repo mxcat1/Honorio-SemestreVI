@@ -12,65 +12,65 @@
         }
     </style>
     <script src="../../sesion03_archivos(BD_laboratorio)/Recursos/jquery-3.3.1.js"></script>
-    <script !src="">
-        $(function () {
-            // LLamada a funcion de ajax para cargar la tabla con un txtbox
-            // $("#enviar").click(function () {
-            //     $.ajax({
-            //         data:$("form").serialize(),
-            //         type: "post",
-            //         datatype: "json",
-            //         url: "p4_ajax.php",
-            //         success: function (res) {
-            //             $("#respuesta").html(res);
-            //         }
-            //     })
-            // })
-
-            // LLenado del CBEQUIPO
-            $.ajax({
-                type: "post",
-                datatype: "json",
-                url: "p4_ajax1.php",
-                success:function (res) {
-                    $("#cbequipos").append(res);
-                }
-            })
-            //Utilizamos el codigo anterioir para cargar la tabla o reporte del equipo solo se cambia el valor en data
-            $("#enviar").click(function () {
-                let cbdato = $("#cbequipos option:selected").val();//Guardo el valor seleccionado del select del doc html
-                $.ajax({
-                    data: {"cbdato" : cbdato},//envio el valor con un identificardo cbdato
-                    type: "post",
-                    datatype: "json",
-                    url: "p4_ajax.php",
-                    success: function (res) {
-                        $("#respuesta").html(res);
-                    }
-                })
-            })
-            //Prueba Utilizando el cambio de seleccion el elemento select
-            $("#cbequipos").change(function () {
-                let cbdato = $("#cbequipos option:selected").val();
-                $.ajax({
-                    data: {"cbdato":cbdato},
-                    type: "post",
-                    datatype: "json",
-                    url: "p4_ajax.php",
-                    success: function (res) {
-                        $("#respuesta").show("slow",function () {
-                            $("#respuesta").html(res);
-                        })
-
-                    }
-                });
-            });
-            $("#btnver").click(function () {
-                $("#respuesta").toggle("slow",function () {
-
-                })
-            })
-        })
+    <script src="ajax-p4.js">
+        // $(function () {
+        //     // LLamada a funcion de ajax para cargar la tabla con un txtbox
+        //     // $("#enviar").click(function () {
+        //     //     $.ajax({
+        //     //         data:$("form").serialize(),
+        //     //         type: "post",
+        //     //         datatype: "json",
+        //     //         url: "p4_ajax.php",
+        //     //         success: function (res) {
+        //     //             $("#respuesta").html(res);
+        //     //         }
+        //     //     })
+        //     // })
+        //
+        //     // LLenado del CBEQUIPO
+        //     $.ajax({
+        //         type: "post",
+        //         datatype: "json",
+        //         url: "p4_ajax1.php",
+        //         success:function (res) {
+        //             $("#cbequipos").append(res);
+        //         }
+        //     })
+        //     //Utilizamos el codigo anterioir para cargar la tabla o reporte del equipo solo se cambia el valor en data
+        //     $("#enviar").click(function () {
+        //         let cbdato = $("#cbequipos option:selected").val();//Guardo el valor seleccionado del select del doc html
+        //         $.ajax({
+        //             data: {"cbdato" : cbdato},//envio el valor con un identificardo cbdato
+        //             type: "post",
+        //             datatype: "json",
+        //             url: "p4_ajax.php",
+        //             success: function (res) {
+        //                 $("#respuesta").html(res);
+        //             }
+        //         })
+        //     })
+        //     //Prueba Utilizando el cambio de seleccion el elemento select
+        //     $("#cbequipos").change(function () {
+        //         let cbdato = $("#cbequipos option:selected").val();
+        //         $.ajax({
+        //             data: {"cbdato":cbdato},
+        //             type: "post",
+        //             datatype: "json",
+        //             url: "p4_ajax.php",
+        //             success: function (res) {
+        //                 $("#respuesta").show("slow",function () {
+        //                     $("#respuesta").html(res);
+        //                 })
+        //
+        //             }
+        //         });
+        //     });
+        //     $("#btnver").click(function () {
+        //         $("#respuesta").toggle("slow",function () {
+        //
+        //         })
+        //     })
+        // })
     </script>
 </head>
 <body>

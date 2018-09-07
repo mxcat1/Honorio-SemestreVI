@@ -16,13 +16,13 @@ function verificar_dato($casilla){
 }
 if ($dato !== "" ){
     $con = new mysqli("localhost","root","XXmxcatXX","bdlaboratorio")or die("No ubo coneccion");
-    $sql = "select codCar,marCom,serCom,otrCom from componente where codEqp = '".$dato."'";
+    $sql = "select codCar,marCom,serCom,otrCom from componente where codEqp = '".$dato."' order by (codcar)";
     $consulta = $con->query($sql);
     while ($resultado = $consulta->fetch_assoc()){
         $lista[] = array("codigo"=>$resultado["codCar"],"marca"=>$resultado["marCom"],"serial"=>$resultado["serCom"],"otros"=>$resultado["otrCom"]);
     }
     echo "<h1>Datos de la Maquina ".$dato."</h1><br><table>";
-    echo "<tr><th>Nº</th><th>Codigo</th><th>Marca</th><th>Serial</th><th>Otros</th></tr>";
+    echo "<tr><th>Nº</th><th>Codigo Componente</th><th>Marca</th><th>Serial</th><th>Otros</th></tr>";
     $n = 1;
     foreach ($lista as $datos){
         echo "<tr> <td>".$n++."</td><td>".$datos["codigo"]."</td>";

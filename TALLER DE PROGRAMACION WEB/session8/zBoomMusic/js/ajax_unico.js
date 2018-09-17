@@ -24,7 +24,7 @@ $(function () {
     })
     $("#rp3").click(function () {
         $.ajax({
-            url: "./formulario_pcs.php",
+            url: "./vistas/formulario_pcs.php",
             datatype:"json",
             type:"post",
             success:function (data) {
@@ -32,8 +32,23 @@ $(function () {
             }
         })
     })
-    $("#btnver").click(function () {
-        let dataubi = $("#txtver").val();
+    //no funciona
+    // $("#btnver").click(function () {
+    //     let dataubi = $("#txtver").val();
+    //     $.ajax({
+    //         url: "./xReportes/Ajax_funciones.php",
+    //         data: {"opcion":"pcubi","pc":dataubi},
+    //         type: "post",
+    //         datatype: "json",
+    //         success: function (data) {
+    //             $("#resultado").html(data);
+    //         }
+    //     })
+    // })
+
+});
+function mostrar_algo() {
+    let dataubi = $("#txtver").val();
         $.ajax({
             url: "./xReportes/Ajax_funciones.php",
             data: {"opcion":"pcubi","pc":dataubi},
@@ -43,5 +58,4 @@ $(function () {
                 $("#resultado").html(data);
             }
         })
-    })
-})
+}

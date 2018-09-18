@@ -1,4 +1,7 @@
 $(function () {
+
+
+
     $("#rp1").click(function () {
         $.ajax({
             data: {"opcion":"carac"},
@@ -29,9 +32,12 @@ $(function () {
             type:"post",
             success:function (data) {
                 $(".rslides_container").html(data);
+                cargarequipo();
+
             }
         })
     })
+
     //no funciona
     // $("#btnver").click(function () {
     //     let dataubi = $("#txtver").val();
@@ -58,4 +64,39 @@ function mostrar_algo() {
                 $("#resultado").html(data);
             }
         })
+}
+function cargarequipo() {
+    $.ajax({
+        data: {"opcion":"mostrarubi"},
+        type: "post",
+        url: "./xReportes/Ajax_Funciones.php",
+        datatype: "json",
+        success:function (data) {
+            $("#cbopciones").append(data)
+        }
+    });
+}
+function mostrara() {
+        let sele=$("#cbopciones option:selected").val();
+        $.ajax({
+            url: "./xReportes/Ajax_funciones.php",
+            data: {"opcion":"pcubi","pc":sele},
+            datatype: "json",
+            type: "post",
+            success:function (data) {
+                $("#resultado").html(data);
+            }
+        })
+}
+function mostrar_ubi() {
+    let sele=$("#cbopciones option:selected").val();
+    $.ajax({
+        url: "./xReportes/Ajax_funciones.php",
+        data: {"opcion":"codpcubi","pc":sele},
+        datatype: "json",
+        type: "post",
+        success:function (data) {
+            $("#cbpcs").html(data);
+        }
+    })
 }

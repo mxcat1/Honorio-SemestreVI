@@ -23,6 +23,7 @@
 	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/responsiveslides.css" />
+    <link rel="stylesheet" href="css/estilossitio.css">
 	
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -63,6 +64,8 @@
 			<div class="button-search"></div>
 <!--			<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">-->
             <input type="text" name="busquedad" id="txtbusquedad">
+            <br>
+
         </div>
 	</div>
 </header>

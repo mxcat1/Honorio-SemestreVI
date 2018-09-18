@@ -7,6 +7,7 @@
  */
 require_once "Caracteristicas.php";
 require_once "computadoras.php";
+require_once "ubicacion.php";
 $opcion=$_POST["opcion"];
 
 
@@ -44,5 +45,34 @@ switch ($opcion){
             $contador++;
         }
         echo "</table>";
+        break;
+    case "mostrarubi":
+        $ubicacion = new ubicacion();
+        $array_ubi= $ubicacion->mostrar_ubi();
+
+        foreach ($array_ubi as $elemento){
+            if ($elemento["ubiEqp"]=="sw1"){
+                $dato="Laboratorio Software";
+                echo "<option value='".$elemento["ubiEqp"]."'>".$dato."</option>";
+            }elseif ($elemento["ubiEqp"]=="red"){
+                $dato="Laboratorio De Red";
+                echo "<option value='".$elemento["ubiEqp"]."'>".$dato."</option>";
+            }elseif ($elemento["ubiEqp"]=="hw"){
+                $dato="Laboratorio De Hardware";
+                echo "<option value='".$elemento["ubiEqp"]."'>".$dato."</option>";
+            }else{
+                echo "<option value='".$elemento["ubiEqp"]."'>".$elemento["ubiEqp"]."</option>";
+            }
+        }
+        echo "</table>";
+        break;
+    case "codpcubi":
+        $pc =$_POST["pc"];
+        $computadoras_ubi = new computadoras();
+        $array_compus_ubi= $computadoras_ubi->listar_pc_porubi($pc);
+        echo "<option value=''>Seleccione un Opcion</option>";
+        foreach ($array_compus_ubi as $elemento){
+            echo "<option value='".$elemento["codEqp"]."'>Laboratorio de ".$pc." ". $elemento["dtpEqp"]."</option>>";
+        }
         break;
 }

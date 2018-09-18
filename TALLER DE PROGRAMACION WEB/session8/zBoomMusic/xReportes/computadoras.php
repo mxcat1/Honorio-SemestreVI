@@ -36,6 +36,17 @@ class computadoras extends conexion {
 
 
     }
+    public function listar_pc_porubi($ubi){
+        $sql="SELECT codEqp,dtpEqp FROM equipo where ubiEqp=?";
+        $consulta = $this->conexiondb->prepare($sql);
+        $consulta->bind_param("s",$ubi);
+        $consulta->bind_result($codEqp,$dtpEqp);
+        $consulta->execute();
+        while ($consulta->fetch()){
+            $lis[]=array("codEqp"=>$codEqp,"dtpEqp"=>$dtpEqp);
+        }
+        return $lis;
+    }
 
 
 

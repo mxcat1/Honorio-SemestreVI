@@ -33,7 +33,7 @@ switch ($opcion){
     case "pcubi":
         $pc =$_POST["pc"];
         $computadoras = new computadoras();
-        $array_compus= $computadoras->listar_componentes($pc);
+        $array_compus= $computadoras->listar_equipos_ubi($pc);
         echo "<table><tr><th>Nº</th><th>CODIGO</th><th>DETALLE-EQUIPO</th><th>UBICACION</th><th>SITUACION</th></tr>";
         $contador=0;
         foreach ($array_compus as $elemento){
@@ -49,7 +49,7 @@ switch ($opcion){
     case "mostrarubi":
         $ubicacion = new ubicacion();
         $array_ubi= $ubicacion->mostrar_ubi();
-
+        echo "<option value=''>Seleccione un Opcion</option>";
         foreach ($array_ubi as $elemento){
             if ($elemento["ubiEqp"]=="sw1"){
                 $dato="Laboratorio Software";
@@ -75,4 +75,21 @@ switch ($opcion){
             echo "<option value='".$elemento["codEqp"]."'>Laboratorio de ".$pc." ". $elemento["dtpEqp"]."</option>>";
         }
         break;
+    case "mostrarcom":
+        $pc=$_POST["pc"];
+        $componentes_compu=new computadoras();
+        $lista_compu=$componentes_compu->listar_comp_pc($pc);
+        echo "<table><tr><th>Nº</th><th>CODIGO COMPONENTE</th><th>CODIGO EQUIPO</th><th>MODELO</th><th>MARCA</th><th>OTRO</th></tr>";
+        $contador=1;
+        foreach ($lista_compu as $elemento){
+            echo "<tr><td>".$contador."</td>";
+            echo "<td>".$elemento["codCom"]."</td>";
+            echo "<td>".$elemento["codEqp"]."</td>";
+            echo "<td>".$elemento["modCom"]."</td>";
+            echo "<td>".$elemento["marCom"]."</td>";
+            echo "<td>".$elemento["otrCom"]."</td></tr>";
+            $contador++;
+        }
+        echo "</table>";
+
 }

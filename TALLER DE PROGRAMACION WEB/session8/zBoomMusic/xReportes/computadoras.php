@@ -16,7 +16,7 @@ class computadoras extends conexion {
     {
         parent::__construct();
     }
-    public function listar_componentes($pc){
+    public function listar_equipos_ubi($pc){
 //        $sql = "SELECT codEqp,dtpEqp,ubiEqp,sitEqp FROM equipo where ubiEqp = '".$pc."'";
 //        $consulta = $this->conexiondb->query($sql);
 //        while ($data1=$consulta->fetch_assoc()){
@@ -46,6 +46,17 @@ class computadoras extends conexion {
             $lis[]=array("codEqp"=>$codEqp,"dtpEqp"=>$dtpEqp);
         }
         return $lis;
+    }
+    public function listar_comp_pc($codeqp){
+        $sql="SELECT codCom,codEqp,modCom,marCom,otrCom FROM componente where codEqp=?";
+        $consulta=$this->conexiondb->prepare($sql);
+        $consulta->bind_param("s",$codeqp);
+        $consulta->bind_result($codCom,$codEqp,$modCom,$marCom,$otrCom);
+        $consulta->execute();
+        while ($consulta->fetch()){
+            $lista[]=array("codCom"=>$codCom,"codEqp"=>$codEqp,"modCom"=>$modCom,"marCom"=>$marCom,"otrCom"=>$otrCom);
+        }
+        return $lista;
     }
 
 

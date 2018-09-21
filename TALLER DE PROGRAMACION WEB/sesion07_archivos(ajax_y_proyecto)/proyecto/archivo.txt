@@ -1,0 +1,1 @@
+Este es un archivo de tipo TXT al cual voy a dar lectura a través de AJAX en segundo plano.

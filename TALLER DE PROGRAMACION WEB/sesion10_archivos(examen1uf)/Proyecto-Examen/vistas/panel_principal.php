@@ -1,34 +1,35 @@
-<!doctype html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Panel Principal</title>
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="css/general.css">
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-</head>
-<body>
 
 <div id="contenedor">
     <div id="menu_panel">
+
+        <div  id="sub_menu_titulo">
+            <h2>MENÚ PRINCIPAL</h2>
+        </div>
+
         <div class="btn-group-vertical" role="group" aria-label="...">
-            <button type="button" class="btn btn-default">PRODUCTOS STOCK</button>
-            <button type="button" class="btn btn-default">PRODUCTOS CON STOCK</button>
-            <button type="button" class="btn btn-default">PRODUCTOS MAS VENDIDOS</button>
-            <button type="button" class="btn btn-default">Button</button>
-            <button type="button" class="btn btn-default">Button</button>
-            <button type="button" class="btn btn-default">Button</button>
-            <button type="button" class="btn btn-default">Button</button>
-            <button type="button" class="btn btn-default">Button</button>
+            <a class="btn btn-primary btn-lg" role="button" id="pro_stock">PRODUCTOS STOCK</a>
+            <a class="btn btn-primary btn-lg" role="button" id="pro_stock_min">PRODUCTOS CON STOCK</a>
+            <a class="btn btn-primary btn-lg" role="button" id="clis_proves">CLIENTES Y PROVEEDORES</a>
+            <a class="btn btn-primary btn-lg" role="button">PRODUCTOS MÁS VENDIDOS</a>
+            <a class="btn btn-primary btn-lg" role="button">TOTAL DE DINERO</a>
+            <a class="btn btn-primary btn-lg" role="button">COMPRA DE LOS PROVEEDORES</a>
+            <a class="btn btn-primary btn-lg" role="button">VENTA CLIENTES</a>
+            <a class="btn btn-primary btn-lg" role="button">BOLETAS O FACTURAS</a>
+            <a class="btn btn-primary btn-lg" role="button">DETALLE BOLETASS O FACTURAS 1</a>
+            <a class="btn btn-primary btn-lg" role="button">DETALLE BOLETASS O FACTURAS 2</a>
+            <a class="btn btn-primary btn-lg" role="button">CLIENTES PRODUCTO</a>
+            <a class="btn btn-primary btn-lg" role="button">MOVIMIENTOS PRODUCTO</a>
+
         </div>
     </div>
-    <div id="resul">
-        <h1>PANEL PRINCIPAL</h1>
+    <div id="panel_principal">
+        <div class="card">
+            <div class="card-header">
+                <h1>Panel Principal</h1>
+            </div>
+        </div>
+        <div id="resultado">
+
+        </div>
     </div>
 </div>
-
-</body>
-</html>

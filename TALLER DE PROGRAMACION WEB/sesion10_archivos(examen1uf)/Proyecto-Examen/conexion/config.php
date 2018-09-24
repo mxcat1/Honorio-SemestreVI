@@ -8,5 +8,5 @@
 define("DB_HOST","localhost");
 define("DB_USER","admin");
 define("DB_PASS","admin123");
-define("DB_DBNAME","dbferreteria");
+define("DB_DBNAME","bdferreteria");
 define("DB_CHARSET","uft8");

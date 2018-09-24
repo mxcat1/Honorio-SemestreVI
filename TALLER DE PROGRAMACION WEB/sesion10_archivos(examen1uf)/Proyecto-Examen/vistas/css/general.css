@@ -9,8 +9,37 @@ body {
     display: flex;
     flex-direction: row; }
     body #contenedor #menu_panel {
-      width: 30%; }
-    body #contenedor #resul {
-      width: 60%; }
+      width: 25%;
+      background: #2e6da4; }
+      body #contenedor #menu_panel #sub_menu_titulo {
+        text-align: center;
+        color: white; }
+      body #contenedor #menu_panel .btn-group-vertical {
+        width: 100%;
+        box-sizing: border-box;
+        color: white; }
+        body #contenedor #menu_panel .btn-group-vertical .btn btn-primary btn-lg {
+          font-weight: bold;
+          background: #3b86ff; }
+    body #contenedor #panel_principal {
+      width: 75%;
+      background: rgba(99, 136, 255, 0.2);
+      position: relative; }
+      body #contenedor #panel_principal .card {
+        width: 70%;
+        margin: auto; }
+        body #contenedor #panel_principal .card .card-header {
+          background: rgba(99, 136, 255, 0.6); }
+          body #contenedor #panel_principal .card .card-header h1 {
+            text-align: center;
+            color: white; }
+      body #contenedor #panel_principal #resultado {
+        width: 65%;
+        margin: auto; }
+        body #contenedor #panel_principal #resultado h1 {
+          text-align: center; }
+        body #contenedor #panel_principal #resultado .page-link {
+          color: #3b86ff;
+          font-weight: bold; }
 
 /*# sourceMappingURL=general.css.map */

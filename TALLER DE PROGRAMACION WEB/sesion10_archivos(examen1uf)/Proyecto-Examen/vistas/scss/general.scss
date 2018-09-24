@@ -9,10 +9,49 @@ body{
     display: flex;
     flex-direction: row;
     #menu_panel{
-      width: 30%;
+      width: 25%;
+      background: #2e6da4;
+      #sub_menu_titulo{
+        text-align: center;
+        color: white;
+      }
+      .btn-group-vertical{
+        width: 100%;
+        box-sizing: border-box;
+        color: white;
+        .btn btn-primary btn-lg{
+          font-weight: bold;
+          background: #3b86ff;
+        }
+      }
     }
-    #resul{
-      width: 60%;
+    #panel_principal{
+      width: 75%;
+      background: rgba(99,136,255,0.2);
+      position: relative;
+      .card{
+        width: 70%;
+        margin: auto;
+        .card-header{
+          background: rgba(99,136,255,0.6);
+          h1{
+            text-align: center;
+            color: white;
+          }
+        }
+      }
+      #resultado{
+        width: 65%;
+        margin: auto;
+        h1{
+          text-align: center;
+        }
+        .page-link{
+          color: #3b86ff;
+          font-weight: bold;
+        }
+      }
+
     }
   }
 }

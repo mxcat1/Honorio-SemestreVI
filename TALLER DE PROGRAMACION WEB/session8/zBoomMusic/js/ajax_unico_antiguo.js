@@ -5,7 +5,7 @@ $(function () {
     $("#rp1").click(function () {
         // $.ajax({
         //     data: {"opcion":"carac"},
-        //     url: "./xReportes/Ajax_funciones.php",
+        //     url: "./xReportes/Ajax_Productos.php",
         //     datatype: "json",
         //     type:"post",
         //     success:function (data) {
@@ -17,7 +17,7 @@ $(function () {
     $("#rp2").click(function () {
         // let dato1 = $("#txtbusquedad").val();
         // $.ajax({
-        //     url: "./xReportes/Ajax_funciones.php",
+        //     url: "./xReportes/Ajax_Productos.php",
         //     data: {"opcion":"pcubi","pc":dato1},
         //     datatype: "json",
         //     type: "post",
@@ -45,7 +45,7 @@ $(function () {
     // $("#btnver").click(function () {
     //     let dataubi = $("#txtver").val();
     //     $.ajax({
-    //         url: "./xReportes/Ajax_funciones.php",
+    //         url: "./xReportes/Ajax_Productos.php",
     //         data: {"opcion":"pcubi","pc":dataubi},
     //         type: "post",
     //         datatype: "json",
@@ -59,7 +59,7 @@ $(function () {
 // function mostrar_algo() {
 //     let dataubi = $("#txtver").val();
 //         $.ajax({
-//             url: "./xReportes/Ajax_funciones.php",
+//             url: "./xReportes/Ajax_Productos.php",
 //             data: {"opcion":"pcubi","pc":dataubi},
 //             type: "post",
 //             datatype: "json",
@@ -82,7 +82,7 @@ $(function () {
 // function mostrara() {
 //         let sele=$("#cbopciones option:selected").val();
 //         $.ajax({
-//             url: "./xReportes/Ajax_funciones.php",
+//             url: "./xReportes/Ajax_Productos.php",
 //             data: {"opcion":"pcubi","pc":sele},
 //             datatype: "json",
 //             type: "post",
@@ -94,7 +94,7 @@ $(function () {
 // function mostrar_ubi() {
 //     let sele=$("#cbopciones option:selected").val();
 //     $.ajax({
-//         url: "./xReportes/Ajax_funciones.php",
+//         url: "./xReportes/Ajax_Productos.php",
 //         data: {"opcion":"codpcubi","pc":sele},
 //         datatype: "json",
 //         type: "post",
@@ -112,7 +112,7 @@ function mostrar_general(opcion,datos,etiqueta) {
     }
     $.ajax({
         data: {"opcion":opcion,"pc":sele},
-        url: "./xReportes/Ajax_funciones.php",
+        url: "./xReportes/Ajax_Productos.php",
         datatype: "json",
         type: "post",
         success:function (data) {

@@ -22,6 +22,7 @@ class conexion_dbfe{
             echo "FALLO LA CONECCION ALA BASE DE DATOS".$this->conexion_db->error;
         }
         $this->conexion_db->set_charset(DB_CHARSET);
+        $this->conexion_db->query("SET NAMES 'utf8'");
     }
 
 

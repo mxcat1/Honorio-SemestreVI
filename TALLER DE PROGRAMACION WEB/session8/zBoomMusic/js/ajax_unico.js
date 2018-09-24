@@ -28,7 +28,7 @@ function mostrar_general(opcion,datos,etiqueta) {
     }
     $.ajax({
         data: {"opcion":opcion,"pc":sele},
-        url: "./xReportes/Ajax_funciones.php",
+        url: "./xReportes/Ajax_Productos.php",
         datatype: "json",
         type: "post",
         success:function (data) {

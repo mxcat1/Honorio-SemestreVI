@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -22,6 +23,7 @@
 	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/responsiveslides.css" />
+    <link rel="stylesheet" href="css/estilossitio.css">
 	
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -38,6 +40,7 @@
 	<link href='./images/favicon.ico' rel='icon' type='image/x-icon'/>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/responsiveslides.js"></script>
+    <script src="js/ajax_unico.js"></script>
 	<script>
 		$(function () {
 		  $("#slider").responsiveSlides({
@@ -53,14 +56,19 @@
 </head>
 <body>
 <!--------------Header--------------->
+
+
 <header>
 	<div class="wrap-header zerogrid">
 		<div id="logo"><a href="#"><img src="./images/logo.png"/></a></div>
 		
 		<div id="search">
 			<div class="button-search"></div>
-			<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
-		</div>
+<!--			<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">-->
+            <input type="text" name="busquedad" id="txtbusquedad">
+            <br>
+
+        </div>
 	</div>
 </header>
 
@@ -68,11 +76,11 @@
 	<div class="wrap-nav zerogrid">
 		<div class="menu">
 			<ul>
-				<li class="current"><a href="index.php">Home</a></li>
-				<li><a href="">Reporte1</a></li>
-				<li><a href="">Reporte2</a></li>
-				<li><a href="">Reporte3</a></li>
-				<li><a href="">Reporte4</a></li>
+				<li class="current"><a href="sistema.php">Home</a></li>
+				<li><a id="rp1">REPORTE1</a></li>
+				<li><a id="rp2">REPORTE2</a></li>
+				<li><a id="rp3">REPORTE3</a></li>
+				<li><a >REPORTE4</a></li>
 			</ul>
 		</div>
 		

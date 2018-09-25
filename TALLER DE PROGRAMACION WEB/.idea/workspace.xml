@@ -36,6 +36,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="bdferreteria: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bdferreteria: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="operadores: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -54,47 +61,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="panel_principal.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php">
+      <file leaf-file-name="sistema.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/sistema.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="170">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Productos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Productos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_pro_fec.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/form_pro_fec.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ajax_funciones.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+            <state relative-caret-position="272">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -143,16 +123,13 @@
         <option value="$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/practica4_ajax.php" />
         <option value="$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/p4_ajax.php" />
         <option value="$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/ajax-p4.js" />
-        <option value="$PROJECT_DIR$/session8/zBoomMusic/sistema.php" />
         <option value="$PROJECT_DIR$/session8/zBoomMusic/coneccionbd/config.php" />
         <option value="$PROJECT_DIR$/session8/zBoomMusic/coneccionbd/coneccionbd.php" />
         <option value="$PROJECT_DIR$/session8/zBoomMusic/xReportes/Caracteristicas.php" />
         <option value="$PROJECT_DIR$/session8/zBoomMusic/formulario_pcs.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console_1.sql" />
         <option value="$PROJECT_DIR$/session8/zBoomMusic/xReportes/ubicacion.php" />
-        <option value="$PROJECT_DIR$/session8/zBoomMusic/index.php" />
         <option value="$PROJECT_DIR$/session8/zBoomMusic/css/estilossitio.css" />
-        <option value="$PROJECT_DIR$/session8/zBoomMusic/js/ajax_unico.js" />
         <option value="$PROJECT_DIR$/session8/zBoomMusic/xReportes/computadoras.php" />
         <option value="$PROJECT_DIR$/session8/zBoomMusic/xReportes/Ajax_funciones.php" />
         <option value="$PROJECT_DIR$/session8/zBoomMusic/vistas/formulario_pcs.php" />
@@ -168,10 +145,13 @@
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Razon_social.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js" />
-        <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Razon_social.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Razon_social.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console.sql" />
+        <option value="$PROJECT_DIR$/session8/zBoomMusic/js/ajax_unico.js" />
+        <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Razon_social.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/form_pro_fec.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console.sql" />
+        <option value="$PROJECT_DIR$/session8/zBoomMusic/sistema.php" />
+        <option value="$PROJECT_DIR$/session8/zBoomMusic/index.php" />
       </list>
     </option>
   </component>
@@ -193,7 +173,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP(WAMP)" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.1" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -210,39 +190,60 @@
           <expand>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sesion01_archivos(Modelado_BD)" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sesion07_archivos(ajax_y_proyecto)" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
-              <item name="Ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sesion10_archivos(examen1uf)" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
-              <item name="modelos" type="462c0819:PsiDirectoryNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="session8" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
-              <item name="vistas" type="462c0819:PsiDirectoryNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="session8" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="zBoomMusic" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="session8" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="zBoomMusic" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vistas" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="session8" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="zBoomMusic" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="xReportes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -303,7 +304,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)&#10;MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/watchers.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/consultas sql" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -311,19 +312,19 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas\js\bootstrap" />
-      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas\css\bootstrap" />
-      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)" />
-      <recent name="E:\Honorio SemestreVI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas\js\bootstrap" />
-      <recent name="E:\Honorio SemestreVI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas\css\bootstrap" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Honorio SemestreVI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas" />
       <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\session8\zBoomMusic\vistas" />
       <recent name="E:\Honorio Semestre VI\TALLER DE PROGRAMACION WEB\session8\zBoomMusic\xReportes" />
       <recent name="E:\Honorio Semestre VI\TALLER DE PROGRAMACION WEB\session4_ajax" />
       <recent name="E:\Honorio Semestre VI\TALLER DE PROGRAMACION WEB\session4_ajax\Ajax_y_MYSQL_Avanzado" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Honorio SemestreVI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\consultas sql" />
+      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas\js\bootstrap" />
+      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas\css\bootstrap" />
+      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)" />
+      <recent name="E:\Honorio SemestreVI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas\js\bootstrap" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,11 +373,12 @@
       <workItem from="1537754927917" duration="4621000" />
       <workItem from="1537808413917" duration="1179000" />
       <workItem from="1537827687774" duration="5664000" />
+      <workItem from="1537877933023" duration="9758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136735000" />
+    <option name="totallyTimeSpent" value="146493000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,7 +391,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294509" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="7" weight="0.3294509" />
@@ -398,8 +399,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3294509" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.34442595" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.2375189" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.34397164" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.22239032" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.21331316" />
       <window_info id="Structure" order="1" sideWeight="0.50083196" side_tool="true" weight="0.24432677" />
@@ -414,10 +415,10 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24054463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -425,15 +426,15 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="9" weight="0.32978722" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" weight="0.21331316" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3280142" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -449,221 +450,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Productos.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="82" lean-forward="true" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/zBoomMusic/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/21a20f74-5bb7-4e45-ac52-03db1a109aa3/console.sql" />
-    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/sistema.php" />
-    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/xReportes/config.php" />
-    <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/p1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/p2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/funcion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdlaboratorio/table/equipo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/coneccionbd/config.php" />
-    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdlaboratorio/table/distribucion">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/p4_ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/p4_ajax1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/practica4_ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session4_ajax/Ajax_y_MYSQL_Avanzado/ajax-p4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/xReportes/ubicacion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console_1.sql" />
-    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/xReportes/Caracteristicas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/css/estilossitio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/xReportes/computadoras.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdlaboratorio/table/componente">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/vistas/formulario_pcs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/xReportes/Ajax_funciones.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/js/ajax_unico.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/detalle_movimientos">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/e1c58956-8af6-4326-b1b9-2cd7ec249f89.SCHEMA:bdferreteria">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>e1c58956-8af6-4326-b1b9-2cd7ec249f89.SCHEMA:bdferreteria</OriginalElement>
-          <nodes>
-            <node x="0.0" y="229.0">e1c58956-8af6-4326-b1b9-2cd7ec249f89.TABLE:bdferreteria.productos</node>
-            <node x="0.0" y="0.0">e1c58956-8af6-4326-b1b9-2cd7ec249f89.TABLE:bdferreteria.movimientos</node>
-            <node x="281.0" y="229.0">e1c58956-8af6-4326-b1b9-2cd7ec249f89.TABLE:bdferreteria.detalle_movimientos</node>
-            <node x="259.0" y="0.0">e1c58956-8af6-4326-b1b9-2cd7ec249f89.TABLE:bdferreteria.operadores</node>
-            <node x="0.0" y="414.0">e1c58956-8af6-4326-b1b9-2cd7ec249f89.TABLE:bdferreteria.permisos</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9320754716981132" x="121.0" y="273.0" />
-          <SelectedNodes>
-            <node>e1c58956-8af6-4326-b1b9-2cd7ec249f89.TABLE:bdferreteria.productos</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/css/general.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/css/bootstrap/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="2792" selection-start-line="5" selection-start-column="2792" selection-end-line="5" selection-end-column="2792" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/css/bootstrap/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/conexion/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/scss/general.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -706,16 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Productos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Razon_social.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Productos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -723,59 +499,293 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Razon_social.php">
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Productos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        <state relative-caret-position="17">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Razon_social.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/form_pro_fec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Productos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="297">
+          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="209">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/xReportes/computadoras.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/xReportes/Ajax_funciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/js/ajax_unico_antiguo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1661" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/js/ajax_unico.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/vistas/formulario_pcs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Razon_social.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Productos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/movimientos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/consultas sql/productos.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/form_pro_fec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/sistema.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/sistema.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/permisos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/permisos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/permisos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/permisos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/permisos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/permisos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/permisos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/permisos">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/operadores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session8/zBoomMusic/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>

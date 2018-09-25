@@ -19,7 +19,7 @@ class Razon_social extends conexion_dbfe {
     }
     public function clis_provees($inicio){
         $pagina=($inicio-1)*74;
-        $sql="SELECT distinct Razon_Social ,if(Tipo_Comprobante = 'Boleta','Cliente','Proveedor') as Tipo 
+        $sql="SELECT distinct Razon_Social ,if(Tipo_Movimiento = 'Venta','Cliente','Proveedor') as Tipo 
               from movimientos order by Razon_Social limit ?,74;";
         $consulta=$this->conexion_db->prepare($sql);
         $consulta->bind_param("i",$pagina);

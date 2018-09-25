@@ -11,15 +11,16 @@ $opcion=$_POST["opcion"];
 
 switch ($opcion){
     case "clis_proves":
-        $data_clis_proves = $razon_social->clis_provees();
-
+        $inicio=$_POST["limite"];
+        $data_clis_proves = $razon_social->clis_provees($inicio);
+        echo "<h1>CLIENTES Y PROVEEDORES</h1>";
         echo "<table class='table table-hover'>
                 <tr>
                     <th>  Nº  </th>
                     <th>RAZON SOCIAL</th>
                     <th>   TIPO  </th>
                 </tr>";
-        $contador=1;
+        $contador=(($inicio-1)*74)+1;
         foreach ($data_clis_proves as $elemento){
             echo "<tr><td>".$contador."</td>";
             echo "<td>".$elemento["Razon_social"]."</td>";
@@ -28,5 +29,19 @@ switch ($opcion){
             $contador++;
         }
         echo "</table>";
+?>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <?php
+                for ($i=1;$i<=9;$i++){
+                    echo "<li class='page-item'>
+                            <a class='page-link'>".$i."</a>
+                          </li>";
+                }
+                ?>
+            </ul>
+        </nav>
+<?php
         break;
 }
+?>

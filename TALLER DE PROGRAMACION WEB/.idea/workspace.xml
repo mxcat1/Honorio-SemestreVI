@@ -30,6 +30,12 @@
         <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bdferreteria: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -48,32 +54,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="panel_principal.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="panel_principal.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="297">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Productos.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Productos.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="187">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Productos.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Productos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_pro_fec.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/form_pro_fec.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Ajax_funciones.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -142,12 +165,13 @@
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/conexion/conexion.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Productos.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Productos.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console.sql" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Razon_social.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js" />
-        <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Razon_social.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Razon_social.php" />
+        <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Razon_social.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console.sql" />
+        <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/form_pro_fec.php" />
       </list>
     </option>
   </component>
@@ -169,7 +193,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.1" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP(WAMP)" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -186,53 +210,39 @@
           <expand>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sesion10_archivos(examen1uf)" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sesion10_archivos(examen1uf)" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Proyecto-Examen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sesion10_archivos(examen1uf)" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Proyecto-Examen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
+              <item name="Ajax" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sesion10_archivos(examen1uf)" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Proyecto-Examen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="conexion" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
+              <item name="modelos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sesion10_archivos(examen1uf)" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Proyecto-Examen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controladores" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sesion10_archivos(examen1uf)" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Proyecto-Examen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modelos" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sesion10_archivos(examen1uf)" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Proyecto-Examen" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vistas" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
+              <item name="vistas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -361,11 +371,12 @@
       <workItem from="1537625737830" duration="623000" />
       <workItem from="1537754927917" duration="4621000" />
       <workItem from="1537808413917" duration="1179000" />
+      <workItem from="1537827687774" duration="5664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131071000" />
+    <option name="totallyTimeSpent" value="136735000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,7 +398,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3294509" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.25189108" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.34442595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.2375189" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.21331316" />
       <window_info id="Structure" order="1" sideWeight="0.50083196" side_tool="true" weight="0.24432677" />
@@ -399,14 +411,13 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.34442595" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24054463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -414,15 +425,15 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="9" weight="0.32978722" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294509" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" weight="0.21331316" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3280142" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -432,7 +443,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Productos.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -659,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Productos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://e1c58956-8af6-4326-b1b9-2cd7ec249f89/schema/bdferreteria/table/permisos">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -687,17 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Razon_social.php" />
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/conexion/conexion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -705,27 +706,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Razon_social.php" />
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Razon_social.php" />
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Productos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Razon_social.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Productos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Razon_social.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Razon_social.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/form_pro_fec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Productos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="297">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Productos.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Productos.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

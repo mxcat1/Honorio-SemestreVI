@@ -17,10 +17,12 @@ class Razon_social extends conexion_dbfe {
     public function __construct(){
         parent::__construct();
     }
-    public function clis_provees(){
-        $sql="select distinct Razon_Social ,if(Tipo_Comprobante = 'Boleta','Cliente','Proveedor') as Tipo 
-              from movimientos order by Razon_Social;";
+    public function clis_provees($inicio){
+        $pagina=($inicio-1)*74;
+        $sql="SELECT distinct Razon_Social ,if(Tipo_Comprobante = 'Boleta','Cliente','Proveedor') as Tipo 
+              from movimientos order by Razon_Social limit ?,74;";
         $consulta=$this->conexion_db->prepare($sql);
+        $consulta->bind_param("i",$pagina);
         $consulta->execute();
         $consulta->bind_result($Razon_social,$tipo);
 

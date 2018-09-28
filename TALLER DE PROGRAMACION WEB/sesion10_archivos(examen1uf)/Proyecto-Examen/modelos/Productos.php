@@ -56,5 +56,21 @@ class Productos extends conexion_dbfe{
         }
 
     }
+    public function productos_mas_vendidos($mes,$ano){
+            $sql="CALL mas_vendidos(?,?)";
+            $consu=$this->conexion_db->prepare($sql);
+            $consu->bind_param("ii",$mes,$ano);
+            $consu->execute();
+            $resul=$consu->get_result();
+            while ($fila=$resul->fetch_assoc()){
+                $lista[]=array($fila);
+            }
+            if (isset($lista)){
+                return $lista;
+            }else{
+                return null;
+            }
+
+    }
 
 }

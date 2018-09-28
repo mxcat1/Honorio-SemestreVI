@@ -33,6 +33,11 @@ body {
           body #contenedor #panel_principal .card .card-header h1 {
             text-align: center;
             color: white; }
+      body #contenedor #panel_principal #formularios {
+        width: 100%; }
+        body #contenedor #panel_principal #formularios #form_fecha {
+          width: 60%;
+          margin: auto; }
       body #contenedor #panel_principal #resultado {
         width: 65%;
         margin: auto; }

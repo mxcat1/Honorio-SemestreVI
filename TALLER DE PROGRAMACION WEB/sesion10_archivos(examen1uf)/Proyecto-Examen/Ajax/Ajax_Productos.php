@@ -67,6 +67,35 @@ switch ($opcion){
             echo "</table>";
         }
         break;
+    case "mas_vendidos":
+        $mes=$_POST["mes"];
+        $ano=$_POST["ano"];
+        $mas_vendidos=$productos->productos_mas_vendidos($mes,$ano);
+        if (isset($mas_vendidos)){
+            echo "<table class='table table-hover'>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Fecha</th>
+                    <th>Descripcion Producto</th>
+                    <th>Total Cantidad</th>
+                </tr>";
+            foreach ($mas_vendidos as $fila){
+                foreach ($fila as $elemento){
+                    echo "<tr><td>".$elemento['Codigo_Movimiento']."</td>";
+                    echo "<td>".$elemento['Fecha']."</td>";
+                    echo "<td>".$elemento['Descripcion_Producto']."</td>";
+                    echo "<td>".$elemento['Total']."</td></tr>";
+                }
+            }
+            echo "</table>";
+        }else{
+            echo "<h1>NO SE ENCUENTRAN PRODUCTOS EN ESA FECHA</h1>";
+        }
+//    foreach ($mas_vendidos as $ele){
+//        var_dump($ele);
+//    }
+//        var_dump($mas_vendidos);
+        break;
     }
 ?>
 

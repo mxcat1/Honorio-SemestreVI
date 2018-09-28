@@ -10,7 +10,7 @@
             <a class="btn btn-primary btn-lg" role="button" id="pro_stock">PRODUCTOS STOCK</a>
             <a class="btn btn-primary btn-lg" role="button" id="pro_stock_min">PRODUCTOS CON STOCK</a>
             <a class="btn btn-primary btn-lg" role="button" id="clis_proves">CLIENTES Y PROVEEDORES</a>
-            <a class="btn btn-primary btn-lg" role="button">PRODUCTOS MÁS VENDIDOS</a>
+            <a class="btn btn-primary btn-lg" role="button" id="p_mas_vende">PRODUCTOS MÁS VENDIDOS</a>
             <a class="btn btn-primary btn-lg" role="button">TOTAL DE DINERO</a>
             <a class="btn btn-primary btn-lg" role="button">COMPRA DE LOS PROVEEDORES</a>
             <a class="btn btn-primary btn-lg" role="button">VENTA CLIENTES</a>
@@ -28,6 +28,7 @@
                 <h1>Panel Principal</h1>
             </div>
         </div>
+        <div id="formularios"></div>
         <div id="resultado">
 
         </div>

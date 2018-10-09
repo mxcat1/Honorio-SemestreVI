@@ -16,7 +16,7 @@
             <a class="btn btn-primary btn-lg" role="button" id="ventas_cli">VENTA CLIENTES</a>
             <a class="btn btn-primary btn-lg" role="button" id="bol_fac">BOLETAS O FACTURAS</a>
             <a class="btn btn-primary btn-lg" role="button" id="bol_fac_prove">DETALLE BOLETASS O FACTURAS 1</a>
-            <a class="btn btn-primary btn-lg" role="button">DETALLE BOLETASS O FACTURAS 2</a>
+            <a class="btn btn-primary btn-lg" role="button" id="bol_fac_cli">DETALLE BOLETASS O FACTURAS 2</a>
             <a class="btn btn-primary btn-lg" role="button">CLIENTES PRODUCTO</a>
             <a class="btn btn-primary btn-lg" role="button">MOVIMIENTOS PRODUCTO</a>
 

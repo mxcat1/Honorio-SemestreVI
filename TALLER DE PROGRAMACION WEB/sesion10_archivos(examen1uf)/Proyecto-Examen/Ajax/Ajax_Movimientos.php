@@ -140,4 +140,38 @@ switch ($opcion){
         }
 
         break;
+    case "det_bol_fac":
+        $nro_com=$_POST["nro_com"];
+        $prove=$_POST["prove"];
+        $lista_det=$movimientos->det_bol_fac($nro_com,$prove);
+        $conta=1;
+        if (isset($lista_det)){
+            echo "<h2>DETALLE DEL COMPROBANTE N° $nro_com</h2>";
+            echo "<table class='table table-hover'>
+                        <tr>
+                            <th>Nr°</th>
+                            <th>Codigo</th>
+                            <th>Proveedor</th>
+                            <th>Producto</th>
+                            <th>Cantidad</th>
+                            <th>Monto</th>
+                        </tr>";
+            foreach ($lista_det as $ele){
+                echo "<tr>
+                        <td>".$conta."</td>
+                        <td>".$ele['Numero_Comprobante']."</td>
+                        <td>".$ele['Razon_Social']."</td>
+                        <td>".$ele['Descripcion_Producto']."</td>
+                        <td>".$ele['Cantidad_Producto']."</td>
+                        <td>".$ele['Monto']."</td>
+                      </tr>";
+                $conta++;
+            }
+
+            echo "</table>";
+        }else{
+            echo "<h1>No se encontro registros</h1>";
+        }
+        break;
+
 }

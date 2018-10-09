@@ -50,7 +50,28 @@ select M.Fecha, M.Numero_Comprobante , M.Tipo_Comprobante, sum(DM.Cantidad_Produ
       on M.Codigo_Movimiento=DM.Codigo_Movimiento
 where M.Tipo_Comprobante='Factura' and M.Fecha like '2004-12%'
 group by M.Codigo_Movimiento;
-# 3.9 incompleto
+# 3.9
 SELECT distinct Razon_Social from movimientos where Tipo_Movimiento='Compra' order by Razon_Social asc;
 
 select Numero_Comprobante,Tipo_Comprobante from movimientos where Tipo_Comprobante='Factura' and Razon_Social='ALFREDO QUISPE TORRES';
+
+select M.Numero_Comprobante,M.Razon_Social,P.Descripcion_Producto,DM.Cantidad_Producto,(DM.Cantidad_Producto*DM.Precio_Unitario)Monto
+  from movimientos M
+      inner join detalle_movimientos DM
+            on M.Codigo_Movimiento=DM.Codigo_Movimiento
+      inner join productos P
+            on P.Codigo_Producto=DM.Codigo_Producto
+where M.Numero_Comprobante=32910 and M.Razon_Social='BENEDICTO CABRERA FARFAN'
+
+# 3.10
+SELECT distinct Razon_Social from movimientos where Tipo_Movimiento='Compra' order by Razon_Social asc;
+
+select Numero_Comprobante,Tipo_Comprobante from movimientos where Tipo_Comprobante='Factura' and Razon_Social='ALFREDO QUISPE TORRES';
+
+select M.Numero_Comprobante,M.Razon_Social,P.Descripcion_Producto,DM.Cantidad_Producto,(DM.Cantidad_Producto*DM.Precio_Unitario)Monto
+from movimientos M
+       inner join detalle_movimientos DM
+         on M.Codigo_Movimiento=DM.Codigo_Movimiento
+       inner join productos P
+         on P.Codigo_Producto=DM.Codigo_Producto
+where M.Numero_Comprobante=32910 and M.Razon_Social='BENEDICTO CABRERA FARFAN'

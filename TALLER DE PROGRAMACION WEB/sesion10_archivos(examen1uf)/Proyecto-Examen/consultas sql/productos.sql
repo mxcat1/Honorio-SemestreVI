@@ -183,3 +183,16 @@ create procedure bol_fac(tipo varchar(100) , fecha varchar(100))
 drop procedure bol_fac;
 call bol_fac('Boleta','2004-01');
 call bol_fac(null ,null );
+
+
+create procedure det_bol_fac(nro_co int,usu varchar(255))
+  begin
+    select M.Numero_Comprobante,M.Razon_Social,P.Descripcion_Producto,DM.Cantidad_Producto,(DM.Cantidad_Producto*DM.Precio_Unitario)Monto from movimientos M
+                                                                                                                                                 inner join detalle_movimientos DM
+                                                                                                                                                   on M.Codigo_Movimiento=DM.Codigo_Movimiento
+                                                                                                                                                 inner join productos P
+                                                                                                                                                   on P.Codigo_Producto=DM.Codigo_Producto
+    where M.Numero_Comprobante=nro_co and M.Razon_Social=usu;
+  end;
+drop procedure det_bol_fac;
+call det_bol_fac(2869,'A & C CONTRATISTAS GENERALES S.R.L.');

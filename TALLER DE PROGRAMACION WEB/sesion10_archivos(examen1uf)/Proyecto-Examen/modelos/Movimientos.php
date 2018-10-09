@@ -98,5 +98,20 @@ class Movimientos extends conexion_dbfe {
         }
 
     }
+    public function det_bol_fac($nro_com,$usu){
+        $sql="CALL det_bol_fac(?,?)";
+        $consu=$this->conexion_db->prepare($sql);
+        $consu->bind_param("is",$nro_com,$usu);
+        $consu->execute();
+        $resul=$consu->get_result();
+        while ($fila=$resul->fetch_assoc()){
+            $lista[]=$fila;
+        }
+        if (isset($lista)){
+            return $lista;
+        }else{
+            return null;
+        }
+    }
 
 }

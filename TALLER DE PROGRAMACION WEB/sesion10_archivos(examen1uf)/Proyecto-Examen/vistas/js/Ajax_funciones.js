@@ -45,6 +45,9 @@ $(function () {
     $("#bol_fac_prove").on("click",function () {
         mostrarformulario("#formularios","form_det_mov_pro.php")
     })
+    $("#bol_fac_cli").on("click",function () {
+        mostrarformulario("#formularios","form_det_mov_cli.php")
+    })
 
 
 

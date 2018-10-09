@@ -23,7 +23,7 @@ body {
           background: #3b86ff; }
     body #contenedor #panel_principal {
       width: 75%;
-      background: rgba(99, 136, 255, 0.2);
+      background: white;
       position: relative; }
       body #contenedor #panel_principal .card {
         width: 70%;

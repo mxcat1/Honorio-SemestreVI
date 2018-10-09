@@ -43,5 +43,14 @@ switch ($opcion){
         </nav>
 <?php
         break;
+    case "llena_cb":
+        $tipo=$_POST["tipo"];
+        $lista=$razon_social->sele_clis_proves($tipo);
+        echo "<option value=''>Selecione un opcion</option>";
+        foreach ($lista as $fila){
+            echo "<option value='".$fila['Razon_Social']."'>".$fila['Razon_Social']."</option>>";
+        }
+        break;
 }
+
 ?>

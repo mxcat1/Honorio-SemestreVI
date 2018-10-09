@@ -33,5 +33,16 @@ class Razon_social extends conexion_dbfe {
 
 
     }
+    public function sele_clis_proves($tipo){
+        $sql="SELECT distinct Razon_Social from movimientos where Tipo_Movimiento=? order by Razon_Social asc ";
+        $consu=$this->conexion_db->prepare($sql);
+        $consu->bind_param("s",$tipo);
+        $consu->execute();
+        $resul=$consu->get_result();
+        while ($fila=$resul->fetch_assoc()){
+            $lista[]=$fila;
+        }
+        return $lista;
+    }
 
 }

@@ -68,10 +68,12 @@ switch ($opcion){
         }
         break;
     case "mas_vendidos":
-        $mes=$_POST["mes"];
-        $ano=$_POST["ano"];
-        $mas_vendidos=$productos->productos_mas_vendidos($mes,$ano);
+        $fecha=$_POST["fecha"];
+        $mas_vendidos=$productos->productos_mas_vendidos($fecha);
+
         if (isset($mas_vendidos)){
+            setlocale(LC_ALL,'es_ES');
+            echo "<h3>PRODUCTOS MAS VENDIDOS EN ". strftime('%B %G',strtotime($fecha)) ."</h3>";
             echo "<table class='table table-hover'>
                 <tr>
                     <th>Codigo</th>
@@ -79,13 +81,15 @@ switch ($opcion){
                     <th>Descripcion Producto</th>
                     <th>Total Cantidad</th>
                 </tr>";
+            $conta=1;
             foreach ($mas_vendidos as $fila){
                 foreach ($fila as $elemento){
-                    echo "<tr><td>".$elemento['Codigo_Movimiento']."</td>";
+                    echo "<tr><td>".$conta."</td>";
                     echo "<td>".$elemento['Fecha']."</td>";
                     echo "<td>".$elemento['Descripcion_Producto']."</td>";
                     echo "<td>".$elemento['Total']."</td></tr>";
                 }
+                $conta++;
             }
             echo "</table>";
         }else{

@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1aa5cb4-8d55-4482-89f4-7997ff187433" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/form_det_mov_cli.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/html2canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessionlibrerias/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessionlibrerias/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessionlibrerias/js/html2canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TALLER DE PROGRAMACION WEB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TALLER DE PROGRAMACION WEB.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1c58956-8af6-4326-b1b9-2cd7ec249f89.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e1c58956-8af6-4326-b1b9-2cd7ec249f89.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1c58956-8af6-4326-b1b9-2cd7ec249f89/storage_v2/_src_/schema/bdferreteria.dR1Scw.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e1c58956-8af6-4326-b1b9-2cd7ec249f89/storage_v2/_src_/schema/bdferreteria.dR1Scw.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1c58956-8af6-4326-b1b9-2cd7ec249f89/storage_v2/_src_/schema/dbsistema.5NMSLA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1c58956-8af6-4326-b1b9-2cd7ec249f89/storage_v2/_src_/schema/dbsistema.5NMSLA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Movimientos.php" beforeDir="false" afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Movimientos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/consultas sql/consulta.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/consultas sql/consulta.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/consultas sql/productos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/consultas sql/productos.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Movimientos.php" beforeDir="false" afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Movimientos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/form_det_mov_pro.php" beforeDir="false" afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/form_det_mov_pro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js" beforeDir="false" afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php" beforeDir="false" afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,17 +132,19 @@
     <session id="-1797389617">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="detalle_movimientos" value="2" />
-          <entry key="js" value="2" />
+          <entry key="html" value="1" />
+          <entry key="js" value="5" />
           <entry key="movimientos" value="3" />
-          <entry key="php" value="2" />
+          <entry key="php" value="6" />
           <entry key="productos" value="1" />
           <entry key="sql" value="5" />
         </counts>
@@ -153,24 +152,26 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="6" />
-          <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="5" />
+          <entry key="PHP" value="6" />
           <entry key="SQL" value="4" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="html" value="516" />
           <entry key="js" value="6" />
-          <entry key="php" value="978" />
+          <entry key="php" value="1308" />
           <entry key="sql" value="820" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="58" />
+          <entry key="HTML" value="574" />
           <entry key="JavaScript" value="6" />
-          <entry key="PHP" value="920" />
+          <entry key="PHP" value="1250" />
           <entry key="SQL" value="28" />
           <entry key="Scratch" value="792" />
         </counts>
@@ -182,11 +183,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+            <state relative-caret-position="229">
+              <caret line="54" column="68" lean-forward="true" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -194,17 +195,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console.sql">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sessionlibrerias/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="99" column="6" lean-forward="true" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,11 +218,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="SCSS File" />
         <option value="jquery-3.3.1" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -237,7 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/p2.php" />
         <option value="$PROJECT_DIR$/sesion03_archivos(BD_laboratorio)/Ajax_jquery_adelanto/p1.php" />
         <option value="$PROJECT_DIR$/session4_ajax/p4_ajax.php" />
         <option value="$PROJECT_DIR$/session4_ajax/p4_ajax1.php" />
@@ -261,7 +264,6 @@
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_funciones.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Productos.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/conexion/config.php" />
-        <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/conexion/conexion.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Razon_social.php" />
         <option value="$PROJECT_DIR$/session8/zBoomMusic/js/ajax_unico.js" />
@@ -282,12 +284,14 @@
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Movimientos.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/form_det_mov_pro.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Movimientos.php" />
-        <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/form_det_mov_cli.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console.sql" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/consultas sql/consulta.sql" />
         <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/consultas sql/productos.sql" />
+        <option value="$PROJECT_DIR$/sessionlibrerias/index.html" />
+        <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php" />
+        <option value="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php" />
       </list>
     </option>
   </component>
@@ -319,6 +323,73 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
+              <item name="vistas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
+              <item name="vistas" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sessionlibrerias" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sessionlibrerias" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="sessionlibrerias" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -365,91 +436,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
-              <item name="Ajax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
-              <item name="conexion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
-              <item name="consultas sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
-              <item name="controladores" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
-              <item name="modelos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
-              <item name="vistas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TALLER DE PROGRAMACION WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="sesion10_archivos(examen1uf)" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto-Examen" type="462c0819:PsiDirectoryNode" />
-              <item name="vistas" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,23 +449,24 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas\img" />
-      <recent name="E:\Honorio SemestreVI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\consultas sql" />
-      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas\js\bootstrap" />
-      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas\css\bootstrap" />
-      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Honorio SemestreVI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas" />
       <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\session8\zBoomMusic\vistas" />
       <recent name="E:\Honorio Semestre VI\TALLER DE PROGRAMACION WEB\session8\zBoomMusic\xReportes" />
       <recent name="E:\Honorio Semestre VI\TALLER DE PROGRAMACION WEB\session4_ajax" />
       <recent name="E:\Honorio Semestre VI\TALLER DE PROGRAMACION WEB\session4_ajax\Ajax_y_MYSQL_Avanzado" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Honorio SemestreVI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas\js" />
+      <recent name="E:\Honorio SemestreVI\TALLER DE PROGRAMACION WEB\sessionlibrerias\js" />
+      <recent name="E:\Honorio SemestreVI\TALLER DE PROGRAMACION WEB\sessionlibrerias\img" />
+      <recent name="D:\HONORIO\HONORIO SEMESTRE VI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\vistas\img" />
+      <recent name="E:\Honorio SemestreVI\TALLER DE PROGRAMACION WEB\sesion10_archivos(examen1uf)\Proyecto-Examen\consultas sql" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -538,11 +525,12 @@
       <workItem from="1538958247352" duration="5466000" />
       <workItem from="1539004653593" duration="28224000" />
       <workItem from="1539087985891" duration="7391000" />
+      <workItem from="1539958378322" duration="9217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202343000" />
+    <option name="totallyTimeSpent" value="211560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,7 +545,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.21633889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.2193646" />
       <window_info id="Structure" order="1" sideWeight="0.50083196" side_tool="true" weight="0.24432677" />
       <window_info id="Favorites" order="2" sideWeight="0.50083196" side_tool="true" weight="0.24432677" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -761,13 +749,6 @@
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/controladores/Razon_social.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Productos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/modelos/Razon_social.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -831,34 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Movimientos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/consultas sql/consulta.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -875,8 +828,59 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1c58956-8af6-4326-b1b9-2cd7ec249f89/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="99" column="6" lean-forward="true" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+        <state relative-caret-position="945">
+          <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessionlibrerias/js/html2canvas.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Movimientos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="152" column="38" selection-start-line="152" selection-start-column="38" selection-end-line="152" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/Ajax_funciones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Productos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/html2canvas.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessionlibrerias/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="54" column="68" lean-forward="true" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
         </state>
       </provider>
     </entry>

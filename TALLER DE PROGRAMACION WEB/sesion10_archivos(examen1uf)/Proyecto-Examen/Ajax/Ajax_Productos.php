@@ -39,6 +39,9 @@ switch ($opcion){
                 ?>
             </ul>
         </nav>
+        <div id="btn_pdf_dom">
+            <a href="ReportesPDF/Reporte_PDF_Productos.php">Reporte PDF</a>
+        </div>
 <?php
         break;
     case "stock_pro_min":

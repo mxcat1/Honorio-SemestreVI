@@ -2,320 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1aa5cb4-8d55-4482-89f4-7997ff187433" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/ReportesPDF/Reporte_PDF_Productos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/LICENSE.LGPL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/VERSION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/autoload.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/Cpdf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Courier-Bold.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Courier-BoldOblique.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Courier-Oblique.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Courier.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSans-Bold.ufm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSans-BoldOblique.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSans-BoldOblique.ufm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSans-Oblique.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSans-Oblique.ufm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSans.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSans.ufm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSansMono-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSansMono-Bold.ufm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSansMono-BoldOblique.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSansMono-BoldOblique.ufm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSansMono-Oblique.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSansMono-Oblique.ufm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSansMono.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSansMono.ufm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSerif-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSerif-Bold.ufm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSerif-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSerif-BoldItalic.ufm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSerif-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSerif-Italic.ufm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSerif.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/DejaVuSerif.ufm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Helvetica-Bold.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Helvetica-BoldOblique.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Helvetica-Oblique.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Helvetica.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Symbol.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Times-Bold.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Times-BoldItalic.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Times-Italic.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/Times-Roman.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/ZapfDingbats.afm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/dompdf_font_family_cache.dist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/fonts/mustRead.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/html5lib/Data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/html5lib/InputStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/html5lib/Parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/html5lib/Tokenizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/html5lib/TreeBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/html5lib/named-character-references.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/Doxyfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/AtRuleBlockList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSBlockList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/Document.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/KeyFrame.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Comment/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Comment/Commentable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/OutputFormat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Parsing/OutputException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Parsing/SourceException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Parsing/UnexpectedTokenException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/AtRule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/CSSNamespace.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/Charset.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/Import.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/Selector.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Renderable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Rule/Rule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/RuleSet/AtRuleSet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/RuleSet/DeclarationBlock.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/RuleSet/RuleSet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Settings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/CSSFunction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/CSSString.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/Color.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/PrimitiveValue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/RuleValueList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/Size.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/URL.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/Value.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/ValueList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/CSSList/AtRuleBlockListTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/CSSList/DocumentTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/OutputFormatTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/ParserTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/RuleSet/DeclarationBlockTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/RuleSet/LenientParsingTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/-charset-after-rule.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/-charset-in-block.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/-empty.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/-end-token-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/-end-token.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/-fault-tolerance.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/-tobedone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/1readme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/2readme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/atrules.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/case-insensitivity.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/colortest.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/comments.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/create-shorthands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/docuwiki.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/expand-shorthands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/functions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/ie-hacks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/important.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/inner-color.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/line-numbers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/namespaces.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/nested.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/slashed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/specificity.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/unicode.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/url.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/values.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/webkit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/files/whitespace.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-css-parser/tests/quickdump.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/adobe-standard-encoding.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/cp1250.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/cp1251.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/cp1252.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/cp1253.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/cp1254.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/cp1255.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/cp1257.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/cp1258.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/cp874.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/iso-8859-1.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/iso-8859-11.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/iso-8859-15.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/iso-8859-16.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/iso-8859-2.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/iso-8859-4.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/iso-8859-5.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/iso-8859-7.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/iso-8859-9.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/koi8-r.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/maps/koi8-u.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/sample-fonts/IntelClear-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/sample-fonts/NotoSansShavian-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/AdobeFontMetrics.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/BinaryStream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/EOT/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/EOT/Header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/EncodingMap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Exception/FontNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Font.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Glyph/Outline.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Glyph/OutlineComponent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Glyph/OutlineComposite.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Glyph/OutlineSimple.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/OpenType/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/OpenType/TableDirectoryEntry.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/DirectoryEntry.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/cmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/glyf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/hhea.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/hmtx.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/kern.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/loca.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/maxp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/name.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/nameRecord.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/os2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/TrueType/Collection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/TrueType/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/TrueType/Header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/TrueType/TableDirectoryEntry.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/WOFF/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/WOFF/Header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/src/FontLib/WOFF/TableDirectoryEntry.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-font-lib/tests/FontLib/FontTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/DefaultStyle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Document.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Gradient/Stop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Style.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Surface/CPdf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Surface/SurfaceCpdf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Surface/SurfaceGmagick.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Surface/SurfaceInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Surface/SurfacePDFLib.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/AbstractTag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Anchor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Circle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/ClipPath.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Ellipse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Group.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Line.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/LinearGradient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Path.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Polygon.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Polyline.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/RadialGradient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Rect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Shape.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Stop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/StyleTag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Text.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/UseTag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/src/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/php-svg-lib/tests/Svg/StyleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/res/broken_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/res/html.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/phpcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Adapter/CPDF.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Adapter/GD.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Adapter/PDFLib.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Autoloader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Canvas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/CanvasFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Cellmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Css/AttributeTranslator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Css/Color.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Css/Style.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Css/Stylesheet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Dompdf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Exception/ImageException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FontMetrics.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Frame.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Frame/Factory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Frame/FrameList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Frame/FrameListIterator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Frame/FrameTree.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Frame/FrameTreeIterator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Frame/FrameTreeList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/AbstractFrameDecorator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/Block.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/Inline.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/ListBullet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/ListBulletImage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/NullFrameDecorator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/Page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/Table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/TableCell.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/TableRow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/TableRowGroup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameDecorator/Text.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameReflower/AbstractFrameReflower.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameReflower/Block.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameReflower/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameReflower/Inline.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameReflower/ListBullet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameReflower/NullFrameReflower.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameReflower/Page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameReflower/Table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameReflower/TableCell.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameReflower/TableRow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameReflower/TableRowGroup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/FrameReflower/Text.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Image/Cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/JavascriptEmbedder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/LineBox.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Options.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/PhpEvaluator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Positioner/Absolute.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Positioner/AbstractPositioner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Positioner/Block.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Positioner/Fixed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Positioner/Inline.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Positioner/ListBullet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Positioner/NullPositioner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Positioner/TableCell.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Positioner/TableRow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Renderer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Renderer/AbstractRenderer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Renderer/Block.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Renderer/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Renderer/Inline.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Renderer/ListBullet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Renderer/TableCell.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Renderer/TableRowGroup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/src/Renderer/Text.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/img/carro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMERCIO ELECTRONICO/Exposicion 2/Red Multimedia(Twitch).pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../COMERCIO ELECTRONICO/Exposicion 2/Red Multimedia(Twitch).pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Productos.php" beforeDir="false" afterPath="$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Productos.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -436,11 +124,12 @@
     <session id="-1797389617">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -493,8 +182,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="850">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -502,8 +191,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/ReportesPDF/Reporte_PDF_Productos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            <state relative-caret-position="-281">
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -511,7 +200,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Productos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="714">
               <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
             </state>
           </provider>
@@ -521,7 +210,7 @@
         <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -640,7 +329,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -648,6 +337,52 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TALLER DE PROGRAMACION WEB" type="cbb8eebc:String" user="TALLER DE PROGRAMACION WEB" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TALLER DE PROGRAMACION WEB" type="cbb8eebc:String" user="TALLER DE PROGRAMACION WEB" />
+              <item name="sesion10_archivos(examen1uf)" type="cbb8eebc:String" user="sesion10_archivos(examen1uf)" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TALLER DE PROGRAMACION WEB" type="cbb8eebc:String" user="TALLER DE PROGRAMACION WEB" />
+              <item name="sesion10_archivos(examen1uf)" type="cbb8eebc:String" user="sesion10_archivos(examen1uf)" />
+              <item name="Proyecto-Examen" type="cbb8eebc:String" user="Proyecto-Examen" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TALLER DE PROGRAMACION WEB" type="cbb8eebc:String" user="TALLER DE PROGRAMACION WEB" />
+              <item name="sesion10_archivos(examen1uf)" type="cbb8eebc:String" user="sesion10_archivos(examen1uf)" />
+              <item name="Proyecto-Examen" type="cbb8eebc:String" user="Proyecto-Examen" />
+              <item name="vistas" type="cbb8eebc:String" user="vistas" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TALLER DE PROGRAMACION WEB" type="cbb8eebc:String" user="TALLER DE PROGRAMACION WEB" />
+              <item name="sesion10_archivos(examen1uf)" type="cbb8eebc:String" user="sesion10_archivos(examen1uf)" />
+              <item name="Proyecto-Examen" type="cbb8eebc:String" user="Proyecto-Examen" />
+              <item name="vistas" type="cbb8eebc:String" user="vistas" />
+              <item name="css" type="cbb8eebc:String" user="css" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TALLER DE PROGRAMACION WEB" type="cbb8eebc:String" user="TALLER DE PROGRAMACION WEB" />
+              <item name="sesion10_archivos(examen1uf)" type="cbb8eebc:String" user="sesion10_archivos(examen1uf)" />
+              <item name="Proyecto-Examen" type="cbb8eebc:String" user="Proyecto-Examen" />
+              <item name="vistas" type="cbb8eebc:String" user="vistas" />
+              <item name="css" type="cbb8eebc:String" user="css" />
+              <item name="bootstrap" type="cbb8eebc:String" user="bootstrap" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -731,52 +466,6 @@
               <item name="TALLER DE PROGRAMACION WEB" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
               <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="TALLER DE PROGRAMACION WEB" type="cbb8eebc:String" user="TALLER DE PROGRAMACION WEB" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="TALLER DE PROGRAMACION WEB" type="cbb8eebc:String" user="TALLER DE PROGRAMACION WEB" />
-              <item name="sesion10_archivos(examen1uf)" type="cbb8eebc:String" user="sesion10_archivos(examen1uf)" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="TALLER DE PROGRAMACION WEB" type="cbb8eebc:String" user="TALLER DE PROGRAMACION WEB" />
-              <item name="sesion10_archivos(examen1uf)" type="cbb8eebc:String" user="sesion10_archivos(examen1uf)" />
-              <item name="Proyecto-Examen" type="cbb8eebc:String" user="Proyecto-Examen" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="TALLER DE PROGRAMACION WEB" type="cbb8eebc:String" user="TALLER DE PROGRAMACION WEB" />
-              <item name="sesion10_archivos(examen1uf)" type="cbb8eebc:String" user="sesion10_archivos(examen1uf)" />
-              <item name="Proyecto-Examen" type="cbb8eebc:String" user="Proyecto-Examen" />
-              <item name="vistas" type="cbb8eebc:String" user="vistas" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="TALLER DE PROGRAMACION WEB" type="cbb8eebc:String" user="TALLER DE PROGRAMACION WEB" />
-              <item name="sesion10_archivos(examen1uf)" type="cbb8eebc:String" user="sesion10_archivos(examen1uf)" />
-              <item name="Proyecto-Examen" type="cbb8eebc:String" user="Proyecto-Examen" />
-              <item name="vistas" type="cbb8eebc:String" user="vistas" />
-              <item name="css" type="cbb8eebc:String" user="css" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="TALLER DE PROGRAMACION WEB" type="cbb8eebc:String" user="TALLER DE PROGRAMACION WEB" />
-              <item name="sesion10_archivos(examen1uf)" type="cbb8eebc:String" user="sesion10_archivos(examen1uf)" />
-              <item name="Proyecto-Examen" type="cbb8eebc:String" user="Proyecto-Examen" />
-              <item name="vistas" type="cbb8eebc:String" user="vistas" />
-              <item name="css" type="cbb8eebc:String" user="css" />
-              <item name="bootstrap" type="cbb8eebc:String" user="bootstrap" />
             </path>
           </expand>
           <select />
@@ -873,11 +562,12 @@
       <workItem from="1539087985891" duration="7391000" />
       <workItem from="1539958378322" duration="9217000" />
       <workItem from="1540298761271" duration="5416000" />
+      <workItem from="1540557031190" duration="684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216976000" />
+    <option name="totallyTimeSpent" value="217660000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,7 +582,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.22239032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.22541603" />
       <window_info id="Structure" order="1" sideWeight="0.50083196" side_tool="true" weight="0.24432677" />
       <window_info id="Favorites" order="2" sideWeight="0.50083196" side_tool="true" weight="0.24432677" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1193,16 +883,6 @@
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/js/html2canvas.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sessionlibrerias/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/libs/dompdf/lib/res/html.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1213,31 +893,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php">
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="850">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/Ajax/Ajax_Productos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="714">
           <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/vistas/panel_principal.php">
+    <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        <state relative-caret-position="408">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessionlibrerias/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sesion10_archivos(examen1uf)/Proyecto-Examen/ReportesPDF/Reporte_PDF_Productos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="-281">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
         </state>
       </provider>
     </entry>

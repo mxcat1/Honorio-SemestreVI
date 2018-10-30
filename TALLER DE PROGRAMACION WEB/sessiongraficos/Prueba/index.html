@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es" ng-app="graf">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Graficos</title>
+</head>
+<body>
+<div ng-controller="graficos_pro">
+    <button type="button" ng-click="recivirpro()">Grafico</button>
+    <button type="button" ng-click="limpiarcanvas()">Limpiar</button>
+    <div id="grafico" style="width: 50%;height: 50%">
+        <canvas id="migrafico" width="600" height="600"></canvas>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

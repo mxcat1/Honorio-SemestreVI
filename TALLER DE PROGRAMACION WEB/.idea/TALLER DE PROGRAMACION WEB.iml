@@ -7,5 +7,6 @@
     <orderEntry type="library" name="Jquery" level="application" />
     <orderEntry type="library" name="@types/jspdf" level="application" />
     <orderEntry type="library" name="angular" level="application" />
+    <orderEntry type="library" name="angular" level="application" />
   </component>
 </module>

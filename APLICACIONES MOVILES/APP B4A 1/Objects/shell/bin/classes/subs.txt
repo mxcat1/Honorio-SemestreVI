@@ -17,7 +17,7 @@ main,btnacceder_click,1,0,56,58
 ,txtnusuario,,txtpassword,,nom_usu,,pass_usu,,login,,bdapp,,nombre_usu,,nombre_usuario
 ,nom_usu,,pass_usu,,login,,nombre_usu,,nombre_usuario
 ,verificar_campos
-main,verificar_campos,1,1,64,90
+main,verificar_campos,1,0,64,90
 ,txtnusuario,,txtpassword,,nom_usu,,pass_usu,,login,,bdapp,,nombre_usu,,nombre_usuario
 ,nom_usu,,pass_usu,,login,,nombre_usu,,nombre_usuario
 
@@ -69,7 +69,7 @@ appprincipal,activity_resume,0,0,24,26
 
 
 
-appprincipal,btncerrarsesion_click,0,1,33,37
+appprincipal,btncerrarsesion_click,0,0,33,37
 main,nombre_usuario
 main,nombre_usuario
 

@@ -18,13 +18,20 @@ End Sub
 Sub Globals
 	'These global variables will be redeclared each time the activity is created.
 	'These variables can only be accessed from this module.
-	Private btncerrarsesion As Button
+
+	Private btnnuevo As Button
+	Private btnsalir As Button
+	Private lblapes As Label
+	Private lblemail As Label
+	Private lblnom_usu As Label
+	Private lblnombre As Label
+	Private lblpass As Label
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
 	'Do not forget to load the layout file created with the visual designer. For example:
-	Activity.LoadLayout("appPrincipal")
-	Msgbox(Main.nombre_usuario,"Alerta")
+	Activity.LoadLayout("appusuarios")
+
 End Sub
 
 Sub Activity_Resume
@@ -36,8 +43,12 @@ Sub Activity_Pause (UserClosed As Boolean)
 End Sub
 
 
-Sub btncerrarsesion_Click
-	Main.nombre_usuario=""
+Sub btnsalir_Click
 	Activity.Finish
 	StartActivity(Main)
+End Sub
+
+Sub btnnuevo_Click
+	Activity.Finish
+	StartActivity(appregistrar)
 End Sub

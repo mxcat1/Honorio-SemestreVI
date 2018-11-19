@@ -68,14 +68,17 @@ try {
 if (RapidSub.canDelegate("btncerrarsesion_click")) { return b4a.example.appprincipal.remoteMe.runUserSub(false, "appprincipal","btncerrarsesion_click");}
  BA.debugLineNum = 33;BA.debugLine="Sub btncerrarsesion_Click";
 Debug.ShouldStop(1);
- BA.debugLineNum = 34;BA.debugLine="Main.nombre_usuario=\"\"";
+ BA.debugLineNum = 34;BA.debugLine="Activity.Finish";
 Debug.ShouldStop(2);
-appprincipal.mostCurrent._main._nombre_usuario = BA.ObjectToString("");
- BA.debugLineNum = 35;BA.debugLine="StartActivity(Main)";
+appprincipal.mostCurrent._activity.runVoidMethod ("Finish");
+ BA.debugLineNum = 35;BA.debugLine="Main.nombre_usuario=\"\"";
 Debug.ShouldStop(4);
-appprincipal.mostCurrent.__c.runVoidMethod ("StartActivity",appprincipal.processBA,(Object)((appprincipal.mostCurrent._main.getObject())));
- BA.debugLineNum = 36;BA.debugLine="End Sub";
+appprincipal.mostCurrent._main._nombre_usuario = BA.ObjectToString("");
+ BA.debugLineNum = 36;BA.debugLine="StartActivity(Main)";
 Debug.ShouldStop(8);
+appprincipal.mostCurrent.__c.runVoidMethod ("StartActivity",appprincipal.processBA,(Object)((appprincipal.mostCurrent._main.getObject())));
+ BA.debugLineNum = 37;BA.debugLine="End Sub";
+Debug.ShouldStop(16);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {

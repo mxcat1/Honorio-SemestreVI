@@ -33,7 +33,7 @@ public class appregistrar extends Activity implements B4AActivity{
 		super.onCreate(savedInstanceState);
         mostCurrent = this;
 		if (processBA == null) {
-			processBA = new anywheresoftware.b4a.ShellBA(this.getApplicationContext(), null, null, "b4a.example", "b4a.example.appregistrar");
+			processBA = new BA(this.getApplicationContext(), null, null, "b4a.example", "b4a.example.appregistrar");
 			processBA.loadHtSubs(this.getClass());
 	        float deviceScale = getApplicationContext().getResources().getDisplayMetrics().density;
 	        BALayout.setDeviceScale(deviceScale);
@@ -328,16 +328,8 @@ public class appregistrar extends Activity implements B4AActivity{
             
     }
 
-
-
-public static void initializeProcessGlobals() {
-             try {
-                Class.forName(BA.applicationContext.getPackageName() + ".main").getMethod("initializeProcessGlobals").invoke(null, null);
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
-}
 public anywheresoftware.b4a.keywords.Common __c = null;
+public static b4a.example.usuario _usuariosregistro = null;
 public anywheresoftware.b4a.objects.ButtonWrapper _btncancelar = null;
 public anywheresoftware.b4a.objects.ButtonWrapper _btnregistrar = null;
 public anywheresoftware.b4a.objects.EditTextWrapper _nbedad = null;
@@ -350,61 +342,85 @@ public anywheresoftware.b4a.objects.EditTextWrapper _txtvcontraseña = null;
 public b4a.example.main _main = null;
 public b4a.example.starter _starter = null;
 public b4a.example.appusuario _appusuario = null;
+
+public static void initializeProcessGlobals() {
+             try {
+                Class.forName(BA.applicationContext.getPackageName() + ".main").getMethod("initializeProcessGlobals").invoke(null, null);
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+}
 public static String  _activity_create(boolean _firsttime) throws Exception{
-RDebugUtils.currentModule="appregistrar";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create"))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_create", new Object[] {_firsttime}));}
-RDebugUtils.currentLine=983040;
- //BA.debugLineNum = 983040;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
-RDebugUtils.currentLine=983042;
- //BA.debugLineNum = 983042;BA.debugLine="Activity.LoadLayout(\"appregistrarse\")";
+ //BA.debugLineNum = 27;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
+ //BA.debugLineNum = 29;BA.debugLine="Activity.LoadLayout(\"appregistrarse\")";
 mostCurrent._activity.LoadLayout("appregistrarse",mostCurrent.activityBA);
-RDebugUtils.currentLine=983044;
- //BA.debugLineNum = 983044;BA.debugLine="End Sub";
+ //BA.debugLineNum = 30;BA.debugLine="usuariosregistro.Initialize";
+_usuariosregistro._initialize(processBA);
+ //BA.debugLineNum = 31;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_pause(boolean _userclosed) throws Exception{
-RDebugUtils.currentModule="appregistrar";
-RDebugUtils.currentLine=1114112;
- //BA.debugLineNum = 1114112;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
-RDebugUtils.currentLine=1114114;
- //BA.debugLineNum = 1114114;BA.debugLine="End Sub";
+ //BA.debugLineNum = 37;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
+ //BA.debugLineNum = 39;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_resume() throws Exception{
-RDebugUtils.currentModule="appregistrar";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_resume"))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_resume", null));}
-RDebugUtils.currentLine=1048576;
- //BA.debugLineNum = 1048576;BA.debugLine="Sub Activity_Resume";
-RDebugUtils.currentLine=1048578;
- //BA.debugLineNum = 1048578;BA.debugLine="End Sub";
+ //BA.debugLineNum = 33;BA.debugLine="Sub Activity_Resume";
+ //BA.debugLineNum = 35;BA.debugLine="End Sub";
 return "";
 }
 public static String  _btncancelar_click() throws Exception{
-RDebugUtils.currentModule="appregistrar";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "btncancelar_click"))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "btncancelar_click", null));}
-RDebugUtils.currentLine=1245184;
- //BA.debugLineNum = 1245184;BA.debugLine="Sub btncancelar_Click";
-RDebugUtils.currentLine=1245185;
- //BA.debugLineNum = 1245185;BA.debugLine="Activity.Finish";
+ //BA.debugLineNum = 52;BA.debugLine="Sub btncancelar_Click";
+ //BA.debugLineNum = 53;BA.debugLine="Activity.Finish";
 mostCurrent._activity.Finish();
-RDebugUtils.currentLine=1245186;
- //BA.debugLineNum = 1245186;BA.debugLine="StartActivity(Main)";
+ //BA.debugLineNum = 54;BA.debugLine="StartActivity(Main)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._main.getObject()));
-RDebugUtils.currentLine=1245187;
- //BA.debugLineNum = 1245187;BA.debugLine="End Sub";
+ //BA.debugLineNum = 55;BA.debugLine="End Sub";
 return "";
 }
 public static String  _btnregistrar_click() throws Exception{
-RDebugUtils.currentModule="appregistrar";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "btnregistrar_click"))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "btnregistrar_click", null));}
-RDebugUtils.currentLine=1179648;
- //BA.debugLineNum = 1179648;BA.debugLine="Sub btnregistrar_Click";
-RDebugUtils.currentLine=1179650;
- //BA.debugLineNum = 1179650;BA.debugLine="End Sub";
+ //BA.debugLineNum = 42;BA.debugLine="Sub btnregistrar_Click";
+ //BA.debugLineNum = 44;BA.debugLine="If usuariosregistro.nuevousu(txtnombre.Text,txtap";
+if (_usuariosregistro._nuevousu(mostCurrent._txtnombre.getText(),mostCurrent._txtapellidos.getText(),mostCurrent._txtnom_usuario.getText(),mostCurrent._txtvcontraseña.getText(),mostCurrent._txtemail.getText(),(int)(Double.parseDouble(mostCurrent._nbedad.getText())))) { 
+ //BA.debugLineNum = 45;BA.debugLine="Activity.Finish";
+mostCurrent._activity.Finish();
+ //BA.debugLineNum = 46;BA.debugLine="StartActivity(Main)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._main.getObject()));
+ }else {
+ //BA.debugLineNum = 48;BA.debugLine="Msgbox(\"Error no se registro nuevo ususario\",\"Er";
+anywheresoftware.b4a.keywords.Common.Msgbox(BA.ObjectToCharSequence("Error no se registro nuevo ususario"),BA.ObjectToCharSequence("Error"),mostCurrent.activityBA);
+ };
+ //BA.debugLineNum = 50;BA.debugLine="End Sub";
+return "";
+}
+public static String  _globals() throws Exception{
+ //BA.debugLineNum = 12;BA.debugLine="Sub Globals";
+ //BA.debugLineNum = 16;BA.debugLine="Private btncancelar As Button";
+mostCurrent._btncancelar = new anywheresoftware.b4a.objects.ButtonWrapper();
+ //BA.debugLineNum = 17;BA.debugLine="Private btnregistrar As Button";
+mostCurrent._btnregistrar = new anywheresoftware.b4a.objects.ButtonWrapper();
+ //BA.debugLineNum = 18;BA.debugLine="Private nbedad As EditText";
+mostCurrent._nbedad = new anywheresoftware.b4a.objects.EditTextWrapper();
+ //BA.debugLineNum = 19;BA.debugLine="Private txtapellidos As EditText";
+mostCurrent._txtapellidos = new anywheresoftware.b4a.objects.EditTextWrapper();
+ //BA.debugLineNum = 20;BA.debugLine="Private txtcontraseña As EditText";
+mostCurrent._txtcontraseña = new anywheresoftware.b4a.objects.EditTextWrapper();
+ //BA.debugLineNum = 21;BA.debugLine="Private txtemail As EditText";
+mostCurrent._txtemail = new anywheresoftware.b4a.objects.EditTextWrapper();
+ //BA.debugLineNum = 22;BA.debugLine="Private txtnom_usuario As EditText";
+mostCurrent._txtnom_usuario = new anywheresoftware.b4a.objects.EditTextWrapper();
+ //BA.debugLineNum = 23;BA.debugLine="Private txtnombre As EditText";
+mostCurrent._txtnombre = new anywheresoftware.b4a.objects.EditTextWrapper();
+ //BA.debugLineNum = 24;BA.debugLine="Private txtvcontraseña As EditText";
+mostCurrent._txtvcontraseña = new anywheresoftware.b4a.objects.EditTextWrapper();
+ //BA.debugLineNum = 25;BA.debugLine="End Sub";
+return "";
+}
+public static String  _process_globals() throws Exception{
+ //BA.debugLineNum = 6;BA.debugLine="Sub Process_Globals";
+ //BA.debugLineNum = 9;BA.debugLine="Private usuariosregistro As usuario";
+_usuariosregistro = new b4a.example.usuario();
+ //BA.debugLineNum = 10;BA.debugLine="End Sub";
 return "";
 }
 }

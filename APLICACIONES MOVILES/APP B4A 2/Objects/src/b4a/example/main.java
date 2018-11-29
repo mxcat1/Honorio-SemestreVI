@@ -33,7 +33,7 @@ public class main extends Activity implements B4AActivity{
 		super.onCreate(savedInstanceState);
         mostCurrent = this;
 		if (processBA == null) {
-			processBA = new anywheresoftware.b4a.ShellBA(this.getApplicationContext(), null, null, "b4a.example", "b4a.example.main");
+			processBA = new BA(this.getApplicationContext(), null, null, "b4a.example", "b4a.example.main");
 			processBA.loadHtSubs(this.getClass());
 	        float deviceScale = getApplicationContext().getResources().getDisplayMetrics().density;
 	        BALayout.setDeviceScale(deviceScale);
@@ -328,74 +328,9 @@ public class main extends Activity implements B4AActivity{
             
     }
 
-
-
-public static void initializeProcessGlobals() {
-    
-    if (main.processGlobalsRun == false) {
-	    main.processGlobalsRun = true;
-		try {
-		        		
-        } catch (Exception e) {
-			throw new RuntimeException(e);
-		}
-    }
-}
-public static boolean isAnyActivityVisible() {
-    boolean vis = false;
-vis = vis | (main.mostCurrent != null);
-vis = vis | (appregistrar.mostCurrent != null);
-vis = vis | (appusuario.mostCurrent != null);
-return vis;}
-
-private static BA killProgramHelper(BA ba) {
-    if (ba == null)
-        return null;
-    anywheresoftware.b4a.BA.SharedProcessBA sharedProcessBA = ba.sharedProcessBA;
-    if (sharedProcessBA == null || sharedProcessBA.activityBA == null)
-        return null;
-    return sharedProcessBA.activityBA.get();
-}
-public static void killProgram() {
-     {
-            Activity __a = null;
-            if (main.previousOne != null) {
-				__a = main.previousOne.get();
-			}
-            else {
-                BA ba = killProgramHelper(main.mostCurrent == null ? null : main.mostCurrent.processBA);
-                if (ba != null) __a = ba.activity;
-            }
-            if (__a != null)
-				__a.finish();}
-
-BA.applicationContext.stopService(new android.content.Intent(BA.applicationContext, starter.class));
- {
-            Activity __a = null;
-            if (appregistrar.previousOne != null) {
-				__a = appregistrar.previousOne.get();
-			}
-            else {
-                BA ba = killProgramHelper(appregistrar.mostCurrent == null ? null : appregistrar.mostCurrent.processBA);
-                if (ba != null) __a = ba.activity;
-            }
-            if (__a != null)
-				__a.finish();}
-
- {
-            Activity __a = null;
-            if (appusuario.previousOne != null) {
-				__a = appusuario.previousOne.get();
-			}
-            else {
-                BA ba = killProgramHelper(appusuario.mostCurrent == null ? null : appusuario.mostCurrent.processBA);
-                if (ba != null) __a = ba.activity;
-            }
-            if (__a != null)
-				__a.finish();}
-
-}
 public anywheresoftware.b4a.keywords.Common __c = null;
+public static b4a.example.usuario _usuarioinicio = null;
+public static String _nomusu = "";
 public anywheresoftware.b4a.objects.ButtonWrapper _btniniciar = null;
 public anywheresoftware.b4a.objects.ButtonWrapper _btnregistrarse = null;
 public anywheresoftware.b4a.objects.EditTextWrapper _txtpassword = null;
@@ -403,61 +338,103 @@ public anywheresoftware.b4a.objects.EditTextWrapper _txtusuario = null;
 public b4a.example.starter _starter = null;
 public b4a.example.appregistrar _appregistrar = null;
 public b4a.example.appusuario _appusuario = null;
+
+public static boolean isAnyActivityVisible() {
+    boolean vis = false;
+vis = vis | (main.mostCurrent != null);
+vis = vis | (appregistrar.mostCurrent != null);
+vis = vis | (appusuario.mostCurrent != null);
+return vis;}
 public static String  _activity_create(boolean _firsttime) throws Exception{
-RDebugUtils.currentModule="main";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create"))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_create", new Object[] {_firsttime}));}
-RDebugUtils.currentLine=131072;
- //BA.debugLineNum = 131072;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
-RDebugUtils.currentLine=131074;
- //BA.debugLineNum = 131074;BA.debugLine="Activity.LoadLayout(\"activitylogin\")";
+ //BA.debugLineNum = 32;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
+ //BA.debugLineNum = 34;BA.debugLine="Activity.LoadLayout(\"activitylogin\")";
 mostCurrent._activity.LoadLayout("activitylogin",mostCurrent.activityBA);
-RDebugUtils.currentLine=131076;
- //BA.debugLineNum = 131076;BA.debugLine="End Sub";
+ //BA.debugLineNum = 35;BA.debugLine="copiabd";
+_copiabd();
+ //BA.debugLineNum = 36;BA.debugLine="usuarioinicio.Initialize";
+_usuarioinicio._initialize(processBA);
+ //BA.debugLineNum = 37;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_pause(boolean _userclosed) throws Exception{
-RDebugUtils.currentModule="main";
-RDebugUtils.currentLine=262144;
- //BA.debugLineNum = 262144;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
-RDebugUtils.currentLine=262146;
- //BA.debugLineNum = 262146;BA.debugLine="End Sub";
+ //BA.debugLineNum = 43;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
+ //BA.debugLineNum = 45;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_resume() throws Exception{
-RDebugUtils.currentModule="main";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_resume"))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_resume", null));}
-RDebugUtils.currentLine=196608;
- //BA.debugLineNum = 196608;BA.debugLine="Sub Activity_Resume";
-RDebugUtils.currentLine=196610;
- //BA.debugLineNum = 196610;BA.debugLine="End Sub";
+ //BA.debugLineNum = 39;BA.debugLine="Sub Activity_Resume";
+ //BA.debugLineNum = 41;BA.debugLine="End Sub";
 return "";
 }
 public static String  _btniniciar_click() throws Exception{
-RDebugUtils.currentModule="main";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "btniniciar_click"))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "btniniciar_click", null));}
-RDebugUtils.currentLine=393216;
- //BA.debugLineNum = 393216;BA.debugLine="Sub btniniciar_Click";
-RDebugUtils.currentLine=393217;
- //BA.debugLineNum = 393217;BA.debugLine="StartActivity(appusuario)";
+ //BA.debugLineNum = 52;BA.debugLine="Sub btniniciar_Click";
+ //BA.debugLineNum = 53;BA.debugLine="If usuarioinicio.logueo(txtusuario.Text,txtpasswo";
+if (_usuarioinicio._logueo(mostCurrent._txtusuario.getText(),mostCurrent._txtpassword.getText())) { 
+ //BA.debugLineNum = 55;BA.debugLine="Msgbox(\"Usuario Encontrado\",\"Acceso Permitido\")";
+anywheresoftware.b4a.keywords.Common.Msgbox(BA.ObjectToCharSequence("Usuario Encontrado"),BA.ObjectToCharSequence("Acceso Permitido"),mostCurrent.activityBA);
+ //BA.debugLineNum = 56;BA.debugLine="nomusu=txtusuario.Text";
+_nomusu = mostCurrent._txtusuario.getText();
+ //BA.debugLineNum = 57;BA.debugLine="StartActivity(appusuario)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._appusuario.getObject()));
-RDebugUtils.currentLine=393218;
- //BA.debugLineNum = 393218;BA.debugLine="End Sub";
+ }else {
+ //BA.debugLineNum = 59;BA.debugLine="Msgbox(\"Nombre de Usuario o Contraseña Incorrect";
+anywheresoftware.b4a.keywords.Common.Msgbox(BA.ObjectToCharSequence("Nombre de Usuario o Contraseña Incorrectos"),BA.ObjectToCharSequence("Error"),mostCurrent.activityBA);
+ };
+ //BA.debugLineNum = 61;BA.debugLine="End Sub";
 return "";
 }
 public static String  _btnregistrarse_click() throws Exception{
-RDebugUtils.currentModule="main";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "btnregistrarse_click"))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "btnregistrarse_click", null));}
-RDebugUtils.currentLine=327680;
- //BA.debugLineNum = 327680;BA.debugLine="Sub btnregistrarse_Click";
-RDebugUtils.currentLine=327681;
- //BA.debugLineNum = 327681;BA.debugLine="StartActivity(appregistrar)";
+ //BA.debugLineNum = 48;BA.debugLine="Sub btnregistrarse_Click";
+ //BA.debugLineNum = 49;BA.debugLine="StartActivity(appregistrar)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._appregistrar.getObject()));
-RDebugUtils.currentLine=327682;
- //BA.debugLineNum = 327682;BA.debugLine="End Sub";
+ //BA.debugLineNum = 50;BA.debugLine="End Sub";
+return "";
+}
+public static String  _copiabd() throws Exception{
+ //BA.debugLineNum = 63;BA.debugLine="Public Sub copiabd";
+ //BA.debugLineNum = 64;BA.debugLine="If File.Exists(File.DirDefaultExternal,\"bdhonorio";
+if (anywheresoftware.b4a.keywords.Common.File.Exists(anywheresoftware.b4a.keywords.Common.File.getDirDefaultExternal(),"bdhonorio.db")==anywheresoftware.b4a.keywords.Common.False) { 
+ //BA.debugLineNum = 65;BA.debugLine="File.Copy(File.DirAssets,\"bdhonorio.db\",File.Dir";
+anywheresoftware.b4a.keywords.Common.File.Copy(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bdhonorio.db",anywheresoftware.b4a.keywords.Common.File.getDirDefaultExternal(),"bdhonorio.db");
+ };
+ //BA.debugLineNum = 67;BA.debugLine="End Sub";
+return "";
+}
+public static String  _globals() throws Exception{
+ //BA.debugLineNum = 22;BA.debugLine="Sub Globals";
+ //BA.debugLineNum = 26;BA.debugLine="Private btniniciar As Button";
+mostCurrent._btniniciar = new anywheresoftware.b4a.objects.ButtonWrapper();
+ //BA.debugLineNum = 27;BA.debugLine="Private btnregistrarse As Button";
+mostCurrent._btnregistrarse = new anywheresoftware.b4a.objects.ButtonWrapper();
+ //BA.debugLineNum = 28;BA.debugLine="Private txtpassword As EditText";
+mostCurrent._txtpassword = new anywheresoftware.b4a.objects.EditTextWrapper();
+ //BA.debugLineNum = 29;BA.debugLine="Private txtusuario As EditText";
+mostCurrent._txtusuario = new anywheresoftware.b4a.objects.EditTextWrapper();
+ //BA.debugLineNum = 30;BA.debugLine="End Sub";
+return "";
+}
+
+public static void initializeProcessGlobals() {
+    
+    if (main.processGlobalsRun == false) {
+	    main.processGlobalsRun = true;
+		try {
+		        main._process_globals();
+starter._process_globals();
+appregistrar._process_globals();
+appusuario._process_globals();
+		
+        } catch (Exception e) {
+			throw new RuntimeException(e);
+		}
+    }
+}public static String  _process_globals() throws Exception{
+ //BA.debugLineNum = 15;BA.debugLine="Sub Process_Globals";
+ //BA.debugLineNum = 18;BA.debugLine="Private usuarioinicio As usuario";
+_usuarioinicio = new b4a.example.usuario();
+ //BA.debugLineNum = 19;BA.debugLine="Public nomusu As String";
+_nomusu = "";
+ //BA.debugLineNum = 20;BA.debugLine="End Sub";
 return "";
 }
 }

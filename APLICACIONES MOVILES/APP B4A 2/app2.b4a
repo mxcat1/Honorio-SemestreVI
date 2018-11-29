@@ -2,15 +2,17 @@
 File1=activitylogin.bal
 File2=appregistrarse.bal
 File3=appusuarios.bal
-File4=honorio.jpg
-File5=login.png
-File6=logo.jpg
+File4=bdhonorio.db
+File5=honorio.jpg
+File6=login.png
+File7=logo.jpg
 FileGroup1=Default Group
 FileGroup2=Default Group
 FileGroup3=Default Group
 FileGroup4=Default Group
 FileGroup5=Default Group
 FileGroup6=Default Group
+FileGroup7=Default Group
 Group=Default Group
 IconFile=
 Library1=core
@@ -20,9 +22,11 @@ ManifestCode='This code will be applied to the manifest file during compilation.
 Module1=Starter
 Module2=appregistrar
 Module3=appusuario
-NumberOfFiles=6
+Module4=usuario
+Module5=conexion
+NumberOfFiles=7
 NumberOfLibraries=3
-NumberOfModules=3
+NumberOfModules=5
 Version=8.3
 @EndOfDesignText@
 #Region  Project Attributes 
@@ -42,13 +46,14 @@ Version=8.3
 Sub Process_Globals
 	'These global variables will be declared once when the application starts.
 	'These variables can be accessed from all modules.
-
+	Private usuarioinicio As usuario
+	Public nomusu As String
 End Sub
 
 Sub Globals
 	'These global variables will be redeclared each time the activity is created.
 	'These variables can only be accessed from this module.
-
+	
 	Private btniniciar As Button
 	Private btnregistrarse As Button
 	Private txtpassword As EditText
@@ -58,7 +63,8 @@ End Sub
 Sub Activity_Create(FirstTime As Boolean)
 	'Do not forget to load the layout file created with the visual designer. For example:
 	Activity.LoadLayout("activitylogin")
-
+	copiabd
+	usuarioinicio.Initialize
 End Sub
 
 Sub Activity_Resume
@@ -75,5 +81,18 @@ Sub btnregistrarse_Click
 End Sub
 
 Sub btniniciar_Click
-	StartActivity(appusuario)
+	If usuarioinicio.logueo(txtusuario.Text,txtpassword.Text) Then
+	'If usuario1.logueo(txtusuario.Text,txtpassword.Text) Then
+		Msgbox("Usuario Encontrado","Acceso Permitido")
+		nomusu=txtusuario.Text
+		StartActivity(appusuario)
+	Else
+		Msgbox("Nombre de Usuario o Contraseña Incorrectos","Error")
+	End If
+End Sub
+
+Public Sub copiabd
+	If File.Exists(File.DirDefaultExternal,"bdhonorio.db")=False Then
+		File.Copy(File.DirAssets,"bdhonorio.db",File.DirDefaultExternal,"bdhonorio.db")
+	End If
 End Sub
